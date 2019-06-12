@@ -32,18 +32,15 @@
     >
       {{ data.footer }}
     </div> -->
-    <CustomFooter/>
   </main>
 </template>
 
 <script>
 import NavLink from '@theme/components/NavLink.vue'
-import CustomFooter from '@theme/components/Footer.vue'
 
 export default {
   components: {
-    NavLink,
-    CustomFooter
+    NavLink
   },
   computed: {
     data () {
