@@ -70,7 +70,6 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover{
 }
 
 .search-container{
-  background-image: url('/images/main-bg.png');
   color: #282828;
   background-size: cover;
   background-position: left;
