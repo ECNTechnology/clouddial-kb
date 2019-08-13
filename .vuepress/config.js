@@ -25,11 +25,19 @@ module.exports = {
       text: 'Guides',
       link: '/guides/cloud-dial/'
     },
+    {
+      text: 'Wholesale Support',
+      link: '/guides/wholesale-support/'
+    },
     ],
     sidebar: {
       '/guides/cloud-dial/': [{
         title: 'Cloud Dial',
         children: getChildren('./guides/cloud-dial/')
+      }],
+      '/guides/wholesale-support/': [{
+        title: 'Wholesale Support',
+        children: getChildren('./guides/wholesale-support/')
       }],
     },
     activeHeaderLinks: true,
