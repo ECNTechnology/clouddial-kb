@@ -2,15 +2,13 @@
 title: Dialling Hours
 date: 2019-08-29T04:13:32.352Z
 ---
-![](/images/save_button.png)
-
 # Dialling Hours
 
 ## Description
 
 Cloud Dial supports the ability to customise the hours in which Cloud Dial will make calls.
 
-## Configuration
+## Configuration 
 
 <img style="width: auto; height: auto;" src="/images/clouddial-customagent-1.png">
 
