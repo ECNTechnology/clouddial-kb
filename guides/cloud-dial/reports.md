@@ -4,6 +4,26 @@ date: 2020-03-16T10:31:44.610Z
 ---
 # Reports
 
+## Campaign Report
+
+**Description:** This report lists each campaign created during the date range selected.
+
+**Columns:**
+
+* '**Name':** The name of the campaign.
+
+* '**CLI':** This is the caller ID that was used for the outbound calls.
+
+* '**AMD**': Shows if _Answering Machine Detection_ was enabled for the campaign or not.
+
+* '**Contacts':** The number of contacts that were uploaded during as part of the campaign.
+
+* '**Created':** Date the campaign was created.
+
+* '**Created By':** The manager that created the campaign.
+
+
+
 ## Dial Results Export
 
 **Description:** 
@@ -48,3 +68,4 @@ Click the '**Download**' button to download the report, or the '**Email Me**' bu
 * The fifth column shows the date / time of the attempted call.
 
 * The final column shows the reference number of the contact.
+
