@@ -127,6 +127,18 @@ The report will show each of the columns uploaded as part of the campaign creati
 
 An end of day report containing graphs showing the results of each call as well as the wrapup metric chosen by each agent.
 
+**Usage:**
+
+Choose from the following options:
+
+* '**Campaign':** Either select '*All*' or a specific campaign.
+* '**Start Date':** Beginning date range.
+* '**End Date':** End date range.
+
+Click '**Download**'.
+
+The downloaded report contains graphed results of each call and wrapup metrics chosen by each agent.
+
 ## Not Connected Contacts
 
 **Description:** 
