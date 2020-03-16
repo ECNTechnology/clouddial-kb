@@ -4,40 +4,53 @@ date: 2020-03-16T10:31:44.610Z
 ---
 # Reports
 
+The *Reports Page* contains a list of reports that allow greater insight into completed campaigns.
+
+## Call Results
+
+**Description:** 
+
+This report shows the call results for all calls made during the date range selected.
+
+**Usage:**
+
+Choose from the following options:
+
+* '**Created By':** Either select '*All*' or a specific manager.
+* '**Start Date':** Beginning date range.
+* '**End Date':** End date range.
+
+Click '**Download**' to download the PDF report.
+
+The downloaded report contains a graph similar to the below sample and a table containing the total count of each type.
+
+<img style="width: 1000px; height: auto;" src="/images/clouddial_callresults.png">
+
+
 ## Campaign Report
 
 **Description:** 
 
 This report lists each campaign created during the date range selected.
 
+**Usage:**
+
 Choose from the following options:
 
-* '**Created By':** Either select '_All_' or a specific manager.
-
+* '**Created By':** Either select '*All*' or a specific manager.
 * '**Start Date':** Beginning date range.
-
 * '**End Date':** End date range.
 
 Click '**Download**' to download the PDF report.
 
-
-
-
 **Columns:**
 
 * '**Name':** The name of the campaign.
-
 * '**CLI':** This is the caller ID that was used for the outbound calls.
-
-* '**AMD**': Shows if _Answering Machine Detection_ was enabled for the campaign or not.
-
+* '**AMD**': Shows if *Answering Machine Detection* was enabled for the campaign or not.
 * '**Contacts':** The number of contacts that were uploaded during as part of the campaign.
-
 * '**Created':** Date the campaign was created.
-
 * '**Created By':** The manager that created the campaign.
-
-
 
 ## Dial Results Export
 
@@ -50,8 +63,6 @@ The report will show each of the columns uploaded as part of the campaign creati
 **Columns:**
 
 * '**SystemContactId**': This is Cloud Dials unique reference for the customer/contact. **Note** that each contact can have multiple numbers, however it will only ever have a single '*SystemContactId*'.
-
-
 * '**LogDate**': This is the date of the call.
 * '**LogTime**': This is the time of the call.
 * '**LogType**': This will be either **completed** or **failed** and is based on the wrapup reason selected by the agent on the call.
@@ -70,19 +81,15 @@ The report will show each of the columns uploaded as part of the campaign creati
 
 Report listing all contacts that were not contactable as part of a campaign.
 
+**Usage:**
+
 Click the '**Download**' button to download the report, or the '**Email Me**' button to have the report emailed to your inbox directly.
 
 **Columns:**
 
 * The first column shows the name of the campaign.
-
-* The second column shows the '_Name_' of the contact.
-
+* The second column shows the '*Name*' of the contact.
 * The third column shows the phone number that was dialled in the attempt.
-
 * The fourth column shows the outcome of the attempted call.
-
 * The fifth column shows the date / time of the attempted call.
-
 * The final column shows the reference number of the contact.
-
