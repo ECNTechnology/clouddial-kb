@@ -6,6 +6,25 @@ date: 2020-03-16T10:31:44.610Z
 
 The *Reports Page* contains a list of reports that allow greater insight into completed campaigns.
 
+## Agent Call Count Report
+
+**Description:**
+
+This report shows the total amount of calls taken by each agent during the date range selected.
+
+**Usage:**
+
+Choose from the following options:
+
+* '**Start Date':** Beginning date range.
+* '**End Date':** End date range.
+
+Click '**Download**' to download the PDF report.
+
+The downloaded report contains a graph and a table showing the total amount of calls taken by each agent during the timeframe selected.
+
+
+
 ## Call Results
 
 **Description:** 
@@ -16,7 +35,7 @@ This report shows the call results for all calls made during the date range sele
 
 Choose from the following options:
 
-* '**Created By':** Either select '*All*' or a specific manager.
+* '**Ended Campaigns':** Either select '*All*' or a specific campaign.
 * '**Start Date':** Beginning date range.
 * '**End Date':** End date range.
 
