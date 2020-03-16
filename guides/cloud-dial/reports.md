@@ -10,6 +10,19 @@ date: 2020-03-16T10:31:44.610Z
 
 This report lists each campaign created during the date range selected.
 
+Choose from the following options:
+
+* '**Created By':** Either select '_All_' or a specific manager.
+
+* '**Start Date':** Beginning date range.
+
+* '**End Date':** End date range.
+
+Click '**Download**' to download the PDF report.
+
+
+
+
 **Columns:**
 
 * '**Name':** The name of the campaign.
