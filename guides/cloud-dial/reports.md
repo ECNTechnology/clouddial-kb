@@ -28,3 +28,23 @@ The report will show each of the columns uploaded as part of the campaign creati
 * '**WrapUpReasonName**': For each successful call, the '*WrapUpReasonName*' column will show the wrapup reason that was selected by the agent.
 * '**WrapUpDateTime**': This shows the date and time that the agent completed the call.
 * '**SystemNotes**': This column will contain any notes that were entered by the agent on the '*EditNotes*' tab while on the call.
+
+## Not Connected Contacts
+
+**Description:** Report listing all contacts that were not contactable as part of a campaign.
+
+Click the '**Download**' button to download the report, or the '**Email Me**' button to have the report emailed to your inbox directly.
+
+**Columns:**
+
+* The first column shows the name of the campaign.
+
+* The second column shows the '_Name_' of the contact.
+
+* The third column shows the phone number that was dialled in the attempt.
+
+* The fourth column shows the outcome of the attempted call.
+
+* The fifth column shows the date / time of the attempted call.
+
+* The final column shows the reference number of the contact.
