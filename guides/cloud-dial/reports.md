@@ -94,6 +94,12 @@ The report will show each of the columns uploaded as part of the campaign creati
 * '**WrapUpDateTime**': This shows the date and time that the agent completed the call.
 * '**SystemNotes**': This column will contain any notes that were entered by the agent on the '*EditNotes*' tab while on the call.
 
+## End of Day Report
+
+**Description:**
+
+An end of day report containing graphs showing the results of each call as well as the wrapup metric chosen by each agent.
+
 ## Not Connected Contacts
 
 **Description:** 
