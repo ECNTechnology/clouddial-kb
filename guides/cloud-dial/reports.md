@@ -6,7 +6,9 @@ date: 2020-03-16T10:31:44.610Z
 
 ## Campaign Report
 
-**Description:** This report lists each campaign created during the date range selected.
+**Description:** 
+
+This report lists each campaign created during the date range selected.
 
 **Columns:**
 
@@ -51,7 +53,9 @@ The report will show each of the columns uploaded as part of the campaign creati
 
 ## Not Connected Contacts
 
-**Description:** Report listing all contacts that were not contactable as part of a campaign.
+**Description:** 
+
+Report listing all contacts that were not contactable as part of a campaign.
 
 Click the '**Download**' button to download the report, or the '**Email Me**' button to have the report emailed to your inbox directly.
 
