@@ -71,6 +71,33 @@ Click '**Download**' to download the PDF report.
 * '**Created':** Date the campaign was created.
 * '**Created By':** The manager that created the campaign.
 
+
+## Campaign Summary
+
+**Description:**
+
+Detailed campaign summary for one or more campaigns.
+
+**Usage:**
+
+Select the campaign you wish to report on and click '**Download**'
+
+This report contains information such as:
+
+* Average Call Time
+
+* Average Call Duration
+
+* Total Call Time (over the duration of the entire campaign)
+
+* Total Calls (made over the duration of the campaign)
+
+* Wrapup Metrics used by agents at the end of each call.
+
+
+
+
+
 ## Dial Results Export
 
 **Description:** 
