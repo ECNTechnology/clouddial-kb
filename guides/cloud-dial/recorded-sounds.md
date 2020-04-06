@@ -24,6 +24,6 @@ Enter in a **'Name'** and '**Description'** so that you remember what is in the 
 
 Click '**Select**' to open a file browser on your PC and select the file you would like to upload.
 
-NOTE: Supported file types are .wav and .mp3
+**NOTE**: Supported file types are .wav and .mp3
 
 Finally, click **'Save'**
