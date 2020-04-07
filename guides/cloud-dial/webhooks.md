@@ -8,9 +8,7 @@ date: 2019-07-12T04:48:53.407Z
 
 The Call Result Webhook sends the results of each call to a URL of your choosing.
 
-::: tip
-**Note:** You will need to have full administrative permissions to enable this feature.
-:::
+::: tip **Note:** You will need to have full administrative permissions to enable this feature. :::
 
 ### Enable Webhook Globally
 
@@ -20,8 +18,8 @@ From the '**Settings**' menu, click '**Preferences**'.
 
 From the preferences menu, click '**WebHook**'.
 
-<img style="width: auto; height: auto;" src="/images/callresultwebhook1.png">
 
+![](/images/clouddial_webhook_creation.png)
 
 Click '**Enable Web Hook**' to enable the feature and enter the following information:
 
@@ -29,12 +27,12 @@ Click '**Enable Web Hook**' to enable the feature and enter the following inform
 * **User Name:** The Username we will send with the webhook POST.
 * **Password:** The Password we will send with the webhook POST.
 
-::: tip
-Cloud Dial will send a base64 encoded version of the {username/password}.
+::: tip Cloud Dial will send a base64 encoded version of the {username/password}.
 :::
- 
+
 **Sample Code**	
-~~~~
+
+```
 POST https://yourwebhookurl/
 Content-type: application/x-www-form-urlencoded
 authorization:base64(username/password)
@@ -48,8 +46,7 @@ authorization:base64(username/password)
  "WrapUpByName": "agent@pinetree.net.au",
  "WrapUpReasonName": "Payment Taken"
 }
-~~~~
-
+```
 
 Click '**Save**' when finished.
 
@@ -62,15 +59,13 @@ You will need to ensure that your application is ready to receive the WebHook.
 The webhook will send the following data:
 
 * **CampaignName:** Name of the campaign.
-
 * **LogDateTime:** Timestamp of the call. 
 * **PhoneCalled:** Number called. 
 * **Reference:** Your reference number.
 * **Result:** Call result.
 * **ResultNotes:** The agents notes.
 * **WrapUpByName:** The Agents who took the call.
-* **WrapUpReasonName:** The wrapup reason. 
-           
+* **WrapUpReasonName:** The wrapup reason.           
 
 ### Creating a Webhook-Enabled Campaign
 
@@ -83,5 +78,3 @@ Once the Cloud Dial campaign is running you will see the following icon next to 
 <img style="width: 1100px; height: auto;" src="/images/callresultwebhookrunning.png">
 
 On the **'Campaign Management**' screen you will now be able to see the status of your new campaign.
-
-
