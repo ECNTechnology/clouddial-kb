@@ -8,7 +8,9 @@ date: 2019-07-12T04:48:53.407Z
 
 The Call Result Webhook sends the results of each call to a URL of your choosing.
 
-::: tip **Note:** You will need to have full administrative permissions to enable this feature. :::
+::: tip
+ **Note:** You will need to have full administrative permissions to enable this feature. 
+:::
 
 ### Enable Webhook Globally
 
@@ -27,7 +29,8 @@ Click '**Enable Web Hook**' to enable the feature and enter the following inform
 * **User Name:** The Username we will send with the webhook POST.
 * **Password:** The Password we will send with the webhook POST.
 
-::: tip Cloud Dial will send a base64 encoded version of the {username/password}.
+::: tip 
+Cloud Dial will send a base64 encoded version of the {username/password}.
 :::
 
 **Sample Code**	
