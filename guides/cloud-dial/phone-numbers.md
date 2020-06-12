@@ -17,6 +17,6 @@ Select '**Phone Numbers**' from the top menu.
 
 On this screen you can enable / disable any phone numbers
 
-If you are missing any numbers, click the '**Update**' button on the top right.
+If you are missing any numbers that have recently been added to your PBX, click the '**Update**' button on the top right.
 
 ![](/images/clouddial-phonenumbers2.png)
