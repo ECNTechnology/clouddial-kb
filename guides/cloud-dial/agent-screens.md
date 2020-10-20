@@ -16,7 +16,7 @@ In the top right hand corner of the page you can see your '**Username**', your '
 
 ![](/images/clouddial_agent_messages.png)
 
-When you have any messages you will see a number listed on top of the messages icon. <img style="width: 25px; height: 25px;" src="images/clouddial_messages_icon.png">
+When you have any messages you will see a number listed on top of the messages icon. <img style="width: 25px; height: 25px;" src="/images/clouddial_messages_icon.png">
 
 Click the bell icon to view your messages.
 
