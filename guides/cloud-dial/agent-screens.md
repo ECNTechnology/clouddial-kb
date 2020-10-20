@@ -29,3 +29,6 @@ Click the '**View all pending call backs**' link to view all callbacks.
 
 
 ![](/images/clouddial_agent_messages_pages.png)
+
+Click '**Call Now**' to return the call, or click '**Remove**' to delete the callback if no longer required.
+
