@@ -9,10 +9,12 @@ date: 2019-06-20T00:18:40.664Z
 :::
 
 While an Agent is on an active call, they will be offered the following call recording options:
+### Recording Options
 
-* **Start/Stop Recording this Arrangement:** When '**started**' the main call recording will continue to run, and a _new_ recording will be started. This enables you to capture just the relevant part of the call into a small file. 
-When '**stopped**', only the arrangement is stopped and the main recording will continue to record.
+* To start recording the call, click <img style="width: auto; height: 25px;" src="/images/clouddial_start_recording.png">
 
-* **Stop All Recordings:** This will **stop** all recordings, including any arrangements. 
+* To stop recording the call, click <img style="width: auto; height: 25px;" src="/images/clouddial_stop_recording.png">
 
-* **Mask/Unmask Recording:** This will mute the audio the recording. (Typically used while taking credit card payments).
+* To pause / mask the recording, click <img style="width: auto; height: 25px;" src="/images/clouddial_pause_recording.png">
+
+* To leave a pre-recorded message, click <img style="width: auto; height: 25px;" src="/images/clouddial_leave_voicemail.png">
