@@ -57,6 +57,6 @@ While on a call you will see the following information on the left hand side of 
 * The name of the campaign.
 * The direction of the call will be clearly identified:
 
-  * **Outbound:** <img style="width: auto; height: 25px;" src="/images/clouddial_outbound_call_icon.png">
-  * **Inbound:** <img style="width: auto; height: 25px;" src="/images/clouddial_inbound_call_icon.png"> 
+  * **Outbound:** Outbound calls will be identified by this icon: <img style="width: auto; height: 25px;" src="/images/clouddial_outbound_call_icon.png">
+  * **Inbound:** Inbound calls will be identified by this icon: <img style="width: auto; height: 25px;" src="/images/clouddial_inbound_call_icon.png"> 
 
