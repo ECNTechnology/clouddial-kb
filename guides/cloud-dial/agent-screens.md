@@ -68,3 +68,22 @@ While on a call you will see the following information on the left hand side of 
 
 <img style="width: 500px; height: auto;" src="/images/clouddial_agent_stats.png">
 
+As an agent, you can quickly see a table of information comparing your stats as an agent against the averages of the other agents.
+
+In this table you can see the following information:
+
+* **Status:** 
+
+  * **OnBreak:** Typically used while having lunch, or for bathroom breaks.
+
+  * **Ready:** While waiting for the next call, you are in 'Ready' status.
+
+  * **WrapUp:** 'WrapUp' status refers to the time between ending a call, and selecting 'Ready' to take the next call.
+
+
+* **My Total Time:** This column displays the total time you have spent in each status.
+
+* **My Avg. Time:** This is the average time you have spent in each status.
+
+* **Campaign Avg. Time %:** This is the average time that all agents have spent in each status.
+
