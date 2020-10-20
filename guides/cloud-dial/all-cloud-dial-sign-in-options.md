@@ -15,9 +15,6 @@ There are two methods of signing into Cloud Dial.
 
 ## Agent Sign In
 
-::: tip
-Contact your Administrator for your Cloud Dial URL
-:::
 
 ![](/images/clouddial_agent_login.png)
 
@@ -51,9 +48,7 @@ Join a campaign by clicking '**Select Campaign**'.
 
 ## Manager Sign In
 
-::: tip
-Contact your Administrator for your Cloud Dial URL
-:::
+
 
 ![](/images/clouddial_manager_login.png)
 
