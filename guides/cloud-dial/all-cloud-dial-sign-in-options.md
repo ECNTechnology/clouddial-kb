@@ -1,50 +1,63 @@
 ---
-title: All Cloud Dial Sign-In Options
+title: Signing into Cloud Dial
 date: 2019-06-20T00:07:23.735Z
 ---
-::: tip
-Contact your Administrator for your Cloud Dial URL
-:::
-
-![clouddial login screen](/images/clouddial-login.png)
-
-On the Cloud Dial login screen you have 4 options to choose from.
-
-* **Forgotten Password:** Password reset link.
-
-* **Sign In:** This button is used in conjunction with your username & password to login.
-
-* **Registration:** Use this button to register as a new user.
-
-* **Agents Sign In:** This button is reserved for Cloud Dial Agents to sign in. 
-
-### Agent Sign In
+# Logging into Cloud Dial
 
 ::: tip
 Contact your Administrator for your Cloud Dial URL
 :::
 
-From the Cloud Dial sign-in page, click the '**Agents Sign In**' button and you will be greeted with the following screen:
+There are two methods of signing into Cloud Dial.
 
-![](/images/clouddial-agentsignin.png)
+1. **Login as an Agent:** Basic user who can join a campaign and make / receive calls.
+2. **Login as a Manger:** A manager has advanced permissions and can create & manage campaigns.
 
-This screen allows an agent to enter in their preferred Username.
+## Agent Sign In
 
-They then enter in the extension number of their phone and click '**Sign In**'.
-Their extension will now ring, and once answered, they are logged into Cloud Dial.
+::: tip
+Contact your Administrator for your Cloud Dial URL
+:::
 
-When an agent first signs into Cloud Dial, they will be greeted with the following choice:
+![](/images/clouddial_agent_login.png)
 
-![clouddial waiting screen. choose select campaign or continue to hold.](/images/clouddial-agents-1.png)
+From the Cloud Dial sign-in page enter your **name** & **extension number**.
 
-* **Select Campaign:** When selected, you will be prompted to choose from a list of active campaigns available to you.
+Click '**Sign In**'.
 
-* **Continue to Hold:** This will place you into a holding status and you'll be able to answer incoming calls, but won't be making outbound calls.
+::: tip
+**Note:** In the event the 'Agent Name' chosen is not unique, you will be prompted for more information. This is to ensure accurate reporting.
+:::
 
-Click '**Select Campaign**' when you are ready to join a campaign.
+![](/images/clouddial_agentcreate.png)
 
-<img style="width: auto; height: auto;" src="/images/clouddial-agents-choose-campaign.png">
 
-On this screen you will be able to see all campaigns available to you.
+Enter the following additional information:
 
-Use the '**Select**' button to join a campaign and start dialling.
+* '**Display Name**' - Your preferred Display Name.
+
+* '**Email**' - Your email address.
+
+Click '**Sign In**' when finished.
+
+## Manager Sign In
+
+::: tip
+Contact your Administrator for your Cloud Dial URL
+:::
+
+![](/images/clouddial_manager_login.png)
+
+Enter your '**Email Address / Username**' and '**Password**', then click '**Sign In**'
+
+If you have forgotten your password click '**Forgot your password**'.
+
+## Password Reset
+
+![](/images/clouddial_forgot_password.png) 
+
+Enter your '**Email Address**' then click '**Reset**'.
+
+You will receive an email with instructions to reset your password.
+
+
