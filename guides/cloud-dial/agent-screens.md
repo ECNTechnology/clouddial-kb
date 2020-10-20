@@ -34,24 +34,28 @@ Click '**Call Now**' to return the call, or click '**Remove**' to delete the cal
 
 <img style="width: 500px; height: auto;" src="/images/clouddial_incall_controls.png">
 
-While on an active call you will see the following:
+While on an active call you will see the following on the right hand side of your screen:
 
 * Your status will show as '**IN CALL**'.
-
 * The timer displays how long you have been on the current call.
-
 * Click the <img style="width: auto; height: 20px;" src="/images/clouddial_callback_button.png"> button to arrange a callback.
-
 * Click the <img style="width: auto; height: 20px;" src="/images/clouddial_endcall_button.png"> button to end the call.
 
-**Recording Options**
+### Recording Options
 
-* To start recording the call, click <img style="width: auto; height: 25px;" src="/images/clouddial_start_recording.png">.
+* To start recording the call, click <img style="width: auto; height: 25px;" src="/images/clouddial_start_recording.png">
+* To stop recording the call, click <img style="width: auto; height: 25px;" src="/images/clouddial_stop_recording.png">
+* To pause / mask the recording, click <img style="width: auto; height: 25px;" src="/images/clouddial_pause_recording.png">
+* To leave a pre-recorded message, click <img style="width: auto; height: 25px;" src="/images/clouddial_leave_voicemail.png">
 
-* To stop recording the call, click <img style="width: auto; height: 25px;" src="/images/clouddial_stop_recording.png">.
+## In Call Information
 
-* To pause / mask the recording, click <img style="width: auto; height: 25px;" src="/images/clouddial_pause_recording.png">.
+<img style="width: 500px; height: auto;" src="/images/clouddial_call_info.png">
 
-* To leave a pre-recorded message, click <img style="width: auto; height: 25px;" src="/images/clouddial_leave_voicemail.png">.
+While on a call you will see the following information on the left hand side of your screen.
 
+* The name of the campaign.
+* The direction of the call will be clearly identified:
 
+  * **Outbound:** <img style="width: auto; height: 25px;" src="/images/clouddial_outbound_call_icon.png">
+  * **Inbound:** 
