@@ -2,9 +2,9 @@
 title: Virtual Agent Campaigns
 date: 2019-06-20T00:13:13.519Z
 ---
-# Campaign Type: Blaster
+# Campaign Type: Virtual Agent
 
-A '**Blaster Campaign**' is a fully automated outbound campaign with no user agents involved. 
+A '**Virtual Agent Campaign**' is a fully automated outbound campaign with no user agents involved. 
 
 This campaign will make outbound calls and play an automated message.
 
