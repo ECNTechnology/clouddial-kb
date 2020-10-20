@@ -1,5 +1,5 @@
 ---
-title: 'Campaign Type: Blaster'
+title: Virtual Agent Campaigns
 date: 2019-06-20T00:13:13.519Z
 ---
 # Campaign Type: Blaster
