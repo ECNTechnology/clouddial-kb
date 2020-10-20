@@ -37,10 +37,21 @@ Click '**Call Now**' to return the call, or click '**Remove**' to delete the cal
 While on an active call you will see the following:
 
 * Your status will show as '**IN CALL**'.
+
 * The timer displays how long you have been on the current call.
-* Click the <img style="width: auto; height: 50px;" src="/images/clouddial_callback_button.png"> button to arrange a callback.
-* Click the <img style="width: auto; height: 50px;" src="/images/clouddial_endcall_button.png"> button to end the call.
+
+* Click the <img style="width: auto; height: 20px;" src="/images/clouddial_callback_button.png"> button to arrange a callback.
+
+* Click the <img style="width: auto; height: 20px;" src="/images/clouddial_endcall_button.png"> button to end the call.
 
 **Recording Options**
+
+* To start recording the call, click <img style="width: auto; height: 20px;" src="/images/clouddial_start_recording.png">
+
+* To stop recording the call, click <img style="width: auto; height: 20px;" src="/images/clouddial_stop_recording.png">
+
+* To pause / mask the recording, click <img style="width: auto; height: 20px;" src="/images/clouddial_pause_recording.png">
+
+* To leave a pre-recorded message, click <img style="width: auto; height: 20px;" src="/images/clouddial_leave_voicemail.png">
 
 
