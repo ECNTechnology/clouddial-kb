@@ -46,12 +46,12 @@ While on an active call you will see the following:
 
 **Recording Options**
 
-* To start recording the call, click <img style="width: auto; height: 20px;" src="/images/clouddial_start_recording.png">
+* To start recording the call, click <img style="width: auto; height: 25px;" src="/images/clouddial_start_recording.png">.
 
-* To stop recording the call, click <img style="width: auto; height: 20px;" src="/images/clouddial_stop_recording.png">
+* To stop recording the call, click <img style="width: auto; height: 25px;" src="/images/clouddial_stop_recording.png">.
 
-* To pause / mask the recording, click <img style="width: auto; height: 20px;" src="/images/clouddial_pause_recording.png">
+* To pause / mask the recording, click <img style="width: auto; height: 25px;" src="/images/clouddial_pause_recording.png">.
 
-* To leave a pre-recorded message, click <img style="width: auto; height: 20px;" src="/images/clouddial_leave_voicemail.png">
+* To leave a pre-recorded message, click <img style="width: auto; height: 25px;" src="/images/clouddial_leave_voicemail.png">.
 
 
