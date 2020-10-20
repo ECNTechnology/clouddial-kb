@@ -20,5 +20,12 @@ When you have any messages you will see a number listed on top of the messages i
 
 Click the bell icon to view your messages.
 
+![](/images/clouddial_agent_messages_dropdown.png)
+
+Click the '**Call Now**' button to return the call.
+
+Click the '**View all pending call backs**' link to view all callbacks.
 
 
+
+![](/images/clouddial_agent_messages_pages.png)
