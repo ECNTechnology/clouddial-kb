@@ -31,14 +31,23 @@ Click '**Sign In**'.
 
 ![](/images/clouddial_agentcreate.png)
 
-
 Enter the following additional information:
 
 * '**Display Name**' - Your preferred Display Name.
-
 * '**Email**' - Your email address.
 
 Click '**Sign In**' when finished.
+
+When you first sign in you will see the following message and your phone will begin to ring. from '**CALLCENTER**'
+
+![](/images/clouddial_connecting.png)
+
+Once you answer the call, you will then see a list of available campaigns to join.
+
+
+![](/images/clouddial_selectcampaign.png)
+
+Join a campaign by clicking '**Select Campaign**'.
 
 ## Manager Sign In
 
@@ -54,10 +63,8 @@ If you have forgotten your password click '**Forgot your password**'.
 
 ## Password Reset
 
-![](/images/clouddial_forgot_password.png) 
+![](/images/clouddial_forgot_password.png)
 
 Enter your '**Email Address**' then click '**Reset**'.
 
 You will receive an email with instructions to reset your password.
-
-
