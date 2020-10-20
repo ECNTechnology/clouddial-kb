@@ -55,16 +55,16 @@ While on an active call you will see the following on the right hand side of you
 While on a call you will see the following information on the left hand side of your screen.
 
 * **Campaign:** The name of the campaign.
-
 * The direction of the call will be clearly identified:
+
   * **Outbound:** Outbound calls will be identified by this icon: <img style="width: auto; height: 25px;" src="/images/clouddial_outbound_call_icon.png">
   * **Inbound:** Inbound calls will be identified by this icon: <img style="width: auto; height: 25px;" src="/images/clouddial_inbound_call_icon.png"> 
-
 * **Name:** The name of the person you are connected to.
-
 * **Phone:** The phone number of the person you are connected to.
-
 * **Contact Reference:** The unique reference that was assigned to this contact when the campaign was created.
-
 * **Additional Information:** Additional information that was uploaded when the campaign was created.
+
+## Agent Statistics
+
+<img style="width: 500px; height: auto;" src="/images/clouddial_agent_stats.png">
 
