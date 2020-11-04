@@ -11,12 +11,16 @@ This firewall ensures that access is only granted from the IP Addresses that you
 
 Adding additional IP addresses to the CloudDial firewall is a simple proceess that can be done by an existing administrator account.
 
-![](/images/clouddial-customagent-1.png)
+![](/images/clouddial_settings_menu.png)
 
 From the '**Settings**' menu, select '**Preferences**'.
 
-![](/images/clouddial_firewall.png)
+![](/images/clouddial_firewall_rules.png)
 
 Select the '**Firewall**' tab from along the top of the screen.
 
-Enter the '**WAN IP Address**' you wish to add and press '**Enter**' to save your changes.
+Enter the '**WAN IP Address**' you wish to add and press '**Save**' to save your changes.
+
+
+
+Click '**Delete**' to remove any unused IP Addresses.
