@@ -38,11 +38,11 @@ Note that when you create the new campaign, the status will be '**NEW**' and the
 
 * To start the Virtual Agent Campaign, click <img style="width: auto; height: 25px;" src="/images/clouddial_campaign_start_button.png">
 
-* To stop the Virtual Agent Campaign,click <img style="width: auto; height: 25px;" src="/images/clouddial_campaign_stop_button.png">
+* To stop the Virtual Agent Campaign, click <img style="width: auto; height: 25px;" src="/images/clouddial_campaign_stop_button.png">
 
-* To pause the Virtual Agent Campaign,click <img style="width: auto; height: 25px;" src="/images/clouddial_campaign_pause_button.png">
+* To pause the Virtual Agent Campaign, click <img style="width: auto; height: 25px;" src="/images/clouddial_campaign_pause_button.png">
 
-* To edit the Virtual Agent Campaign,click <img style="width: auto; height: 25px;" src="/images/clouddial_campaign_edit_button.png">
+* To edit the Virtual Agent Campaign, click <img style="width: auto; height: 25px;" src="/images/clouddial_campaign_edit_button.png">
 
 
 ## Creating a Virtual Agent Campaign
