@@ -8,9 +8,7 @@ A '**Virtual Agent Campaign**' is a fully automated outbound campaign with no us
 
 This campaign will make outbound calls and play an automated message.
 
-
-
-### Call Flow
+## Call Flow
 
 <img style="width: auto; height: auto;" src="/images/blaster_amd_disabled.png">
 
@@ -26,6 +24,38 @@ This campaign will make outbound calls and play an automated message.
 
 **5.** Once the message has been played to completion, Cloud Dial will hangup.
 
+## Creating a Virtual Agent Campaign
+
+![](/images/clouddial_management_screen.png)
+
+From the Management menu on the left hand side of the screen, select '**Campaigns**'.
+
+![](/images/clouddial_new_virtualagent_campaign.png)
+
+From the '**New Campaign**' menu in the top right hand corner, select '**New Virtual Agent Campaign**'.
+
+![](/images/clouddial_create_virtualagent.png)
+
+Enter the following information:
 
 
 
+* **Campaign Name:** This name is for your reference.
+
+* ** Country:** Select either Australia or New Zealand.
+
+* **Virtual Agents:** This is the number of simultaneous calls that will be made.
+
+* **Contacts:** Click the '**Upload File**' button to select and upload your contact information.
+
+* **Redial Attempts:** The number of times Cloud Dial will attempt to reach the contact. EG: If you select redial attempts = 2, and you have uploaded two numbers for a contact, Cloud Dial will dial each number once only for a total of two times.
+
+* **Sound Recording:** Select from the dropdown list of previously uploaded recordings. Use the play / pause buttons to preview the file.
+
+* ** Caller ID:** Select from the dropdown list which number will be used as the outgoing number for this campaign. If you wish to use a private number, select '**Hide Caller ID**', however you will still need to specify a phone number - This is a network requirement and will not be displayed on the remote phone.
+
+* **New Sound Recording:** If you can not locate a suitable recording in the above section, you can upload a sound file directly from this page. Enter a name for the file, then click '**Upload File**'.
+
+Once you are happy with all settings for the campaign, click '**Finish**'.
+
+ 
