@@ -1,8 +1,8 @@
 ---
-title: Virtual Agent Campaigns
+title: Campaigns
 date: 2019-06-20T00:13:13.519Z
 ---
-# Campaign Type: Virtual Agent
+# Virtual Agent Campaigns
 
 A '**Virtual Agent Campaign**' is a fully automated outbound campaign with no user agents involved. 
 
