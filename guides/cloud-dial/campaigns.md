@@ -36,7 +36,7 @@ On this screen, you can see any '**Virtual Agent Campaigns**' that you have crea
 
 Note that when you create the new campaign, the status will be '**NEW**' and the campaign is not started, allowing you to create the campaign in advance, and start it when you are ready to begin.
 
-* To start the Virtual Agent Campaign, click <img style="width: auto; height: 25px;" src="/images/clouddial_campaign_start_button.png">
+* To start the Virtual Agent Campaign, click <img style="width: auto; height: 25px;" src="/images/clouddial_campaign_play_button.png">
 
 * To stop the Virtual Agent Campaign, click <img style="width: auto; height: 25px;" src="/images/clouddial_campaign_stop_button.png">
 
