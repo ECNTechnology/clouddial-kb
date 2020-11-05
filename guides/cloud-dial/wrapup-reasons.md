@@ -2,63 +2,59 @@
 title: Wrapup Reasons
 date: 2019-06-20T01:17:55.360Z
 ---
-
 # Wrap Up Reasons
 
 A Wrap Up reason allows the agent to click a single button when ending the call to signify the outcome of the call for easy reporting.
 
-It is now possible to assign your Wrap Up reasons to a category. This means when creating a campaign, you can add all the Wrap Up reasons in a category with a single click.
-
-This guide will show you how.
+You can assign your Wrap Up reasons to a category. This means when creating a campaign, you can add all the Wrap Up reasons in a category with a single click.
 
 - - -
 
 ## Managing Wrap Up Reasons
 
-![](/images/clouddial_wrapup_1.png)
+![](/images/clouddial_webhook_menu.png)
 
-From the '_**Settings**_' menu, click '_**Wrap Up Reasons**_'.
+From the '***Settings***' menu, click '***Wrap Up Reasons***'.
 
-<img style="width: auto; height: auto;" src="/images/clouddial_wrapup_2.png">
+<img style="width: auto; height: auto;" src="/images/clouddial_wrapup_reasons.png">
 
-Here you can edit your existing Wrap Up reasons. 
+Here you can edit your Wrap Up reasons. 
 
-::: tip
-If you had any old Wrap Up reasons, they will now be in the 'Default' category.
-:::
+The page is laid out into two distinct areas.
+
+* The left hand side is dedicated to *existing* Wrap Up reasons.
+* The right hand side is dedicated to the creation of *new* Wrap Up reasons.
+
+### New Wrap Up Reasons
+
+Click '**NEW**' to create a new Wrap Up reason.
 
 Choose the category from the dropdown menu.
 
-Click '**_Edit_**' to adjust as needed.
+Click '***Edit***' to adjust as needed.
 
 <img style="width: auto; height: auto;" src="/images/clouddial_wrapup_3.png">
 
 Here you will be able to edit or create a new Wrap Up reason.
 
-From the '**_Category_**' dropdown menu, you can either select an existing category to add to, or create a new category.
+From the '***Category***' dropdown menu, you can either select an existing category to add to, or create a new category.
 
 Give you Wrap Up reason a descriptive name (This will be what the Agents will see).
 
-Choose between '**_success_**' or '**_failed_**'.
+Choose between '***success***' or '***failed***'.
 
-Click '**_Save_** when finished.
+Click '***Save*** when finished.
 
-<img style="width: auto; height: auto;" src="/images/clouddial_wrapup_5.png">
+### Edit existing Wrap Up Reason
 
-## Adding Wrap Up Reasons To New Campaigns
+![](/images/clouddial_wrapup_searchedit.png)
 
-To create a new campaign, you'll need to be on the '**_Campaign Management_**' screen.
+Use the dropdown to select the category, then use the searchbox to filter the results as needed.
 
-<img style="width: auto; height: auto;" src="/images/clouddial-blaster-1.png">
+To edit an existing Wrap Up reason, click '**Edit**'.
 
-From the '**_New Campaign_**' menu, choose any campaign type **except** '_Blaster Campaign_'.
+When you have made your changes, click '**Save**'.
 
-Proceed as normal until you get to the '**_Wrap Up_**' tab.
 
-<img style="width: auto; height: auto;" src="/images/clouddial_wrapup_4.png">
 
-On this screen you can still manually add adhoc Wrap Up reasons by simply typing them in and clicking '_**Save**_' however you can also choose to add all of the Wrap Up reasons from a category by selecting the category from the dropdown menu.
 
-::: tip
-You can even add multiple categories to the same campaign.
-:::
