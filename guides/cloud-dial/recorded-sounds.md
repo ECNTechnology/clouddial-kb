@@ -2,28 +2,40 @@
 title: Recorded Sounds
 date: 2020-04-06T07:59:51.131Z
 ---
-# CloudDial Recorded Sounds
+# Recorded Sounds
 
-## Adding a Recorded Sound to CloudDial
+A recorded sound can be used in many scenarios with your campaigns, once they have been uploaded.
 
-Adding additional IP addresses to the CloudDial firewall is a simple proceess that can be done by an existing administrator account.
+The process to add / edit recordings is outlined below.
 
-![](/images/clouddial-customagent-1.png)
+## Adding Sounds to Cloud Dial
+
+![](/images/clouddial_settings_menu.png)
 
 From the '**Settings**' menu, select '**Preferences**'.
 
-![](/images/recorded-sounds-cd.png)
-
 Select the '**Recorded Sounds**' tab from along the top of the screen.
 
-Click on '**New**'
+![](/images/clouddial_recordedsounds.png)
 
-![](/images/add-new-recording.png)
+* Use the search function to filter for specific sound files.
+* Click the '**Play**' button to listen to the sound file.
+* Click the '**Delete**' button to delete the file. (This is not reversable).
 
-Enter in a **'Name'** and '**Description'** so that you remember what is in the recorded sound.
+::: tip
+Note: If you have uploaded a lot of files, you may need to use the '**Next**' button, or the search function to locate the correct file.
+:::
+
+To add a new sound file, click the '**NEW**' button.
+
+![](/images/clouddial_recordedsoundupload.png)
+
+Enter in a **'Name'** and '**Description'** so that you remember what the sound file is to be used for.
 
 Click '**Select**' to open a file browser on your PC and select the file you would like to upload.
 
-**NOTE**: Supported file types are .wav and .mp3
+::: tip
+**NOTE**: Supported file types are .wav only.
+:::
 
 Finally, click **'Save'**
