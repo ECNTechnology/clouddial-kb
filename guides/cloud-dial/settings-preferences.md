@@ -196,10 +196,100 @@ Select the '**Integrations**' tab from along the top of the screen.
 
 On this page, you can see both your active & disabled integrations.
 
-* Click the '**Edit**' to modify an Integration.
+* Click '**Edit**' to modify an Integration.
 
 * Click '**Disable**' to temporarily disable an Integration.
 
-* Click <img style="width: auto; height: 25px;" src="/images/clouddial_add_new_integration.png"> to add a new Integration.
+
+### Add New Integration
+
+Click <img style="width: auto; height: 25px;" src="/images/clouddial_add_new_integration.png"> to add a new Integration.
+
+
+When adding new Integrations, there are four components:
+
+#### Integration Details
+
+![](/images/clouddial_integration_details.png)
+
+* **Integration Name:** A descriptive name for your reference.
+
+* **Type:**
+  
+  * **ScreenPop:** This type of integration will open a new tab in your web browser 
+
+  * **Webhook:** This type of integration will send the requested data to a URL of your choice which can then act upon that data.
+
+* **Request URL:** 
+
+  * When using 'ScreenPop', this is the URL that will open in a new tab.
+
+  * When using 'Webhook', this is the URL Cloud Dial will send the data to.
+
+* **Method:** Choose from 'GET' & 'POST'.
+
+* **Fromat:** Choose from 'QUERY' & 'JSON'.
+
+* **Path Arguments:** Enter any path arguments here.
+
+* **Trigger Event:** The Integration can trigger on either 'Call Connect', 'WrapUp', or 'AMD'.
+
+
+#### Authentication
+
+![](/images/clouddial_integration_authentication.png)
+
+* **Authentication Type:** Choose from 'None', 'Basic Auth', and 'Token' based authentication.
+
+* **Username:** Enter in as needed.
+
+* **Password:** Enter in as needed.
+
+* **Token:** Enter in as needed.
+
+
+#### Header Values
+
+![](/images/clouddial_integration_headers.png)
+
+Add the following details as needed.
+
+* Request Name
+
+* Request Value
+
+To add additional header values, click the <img style="width: auto; height: 25px;" src="/images/clouddial_plus_button.png"> button.
+
+#### Field Values
+
+![](/images/clouddial_integration_field_values.png)
+
+Add the following details as needed.
+
+* Request Key
+
+* Request Value:
+  
+  * Campaign Name
+  
+  *  Customer Reference
+
+  * Customer Name
+
+  * Date/Time
+
+  * Dial Result
+
+  * Dial Result Notes
+
+  * Phone Called
+
+  * Agent Name
+
+  * Wrap Up By
+
+  * Wrap Up Reason
+
+When finished, click the <img style="width: auto; height: 25px;" src="/images/clouddial_save_button.png"> button.
 
 
