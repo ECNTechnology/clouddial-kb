@@ -33,7 +33,7 @@ Enter the following additional information:
 * '**Display Name**' - Your preferred Display Name.
 * '**Email**' - Your email address.
 
-Click '**Sign In**' when finished.
+Click '**Sign Up**' when finished.
 
 When you first sign in you will see the following message and your phone will begin to ring. from '**CALLCENTER**'
 
