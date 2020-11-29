@@ -9,6 +9,7 @@ date: 2020-11-29T13:21:47.047Z
 Cloud Dial maintains a user-defined 'Do Not Call Register', which can be added to in two ways.
 
 * When completing a call, an agent can elect to add the contact to the Do Not Call Register.
+
 * A Manager can manually ad a contact to the Do Not Call Register.
 
 From the '**Contacts**' menu on the left-hand side of the screen, select '**Do Not Call Register**'.
