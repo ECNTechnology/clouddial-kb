@@ -21,6 +21,7 @@ From the Management menu on the left hand side of the screen, select '**Campaign
 
 On this screen, you can see in the top section, all '**General Campaigns**' that you have created.
 
+For each Campaign you can perform the following actions.
 
 * To start the Campaign, click <img style="width: auto; height: 25px;" src="/images/clouddial_campaign_play_button.png">
 
@@ -31,6 +32,10 @@ On this screen, you can see in the top section, all '**General Campaigns**' that
 * To edit the Campaign, click <img style="width: auto; height: 25px;" src="/images/clouddial_campaign_edit_button.png">
 
 * To view statistics about the Campaign, click <img style="width: auto; height: 25px;" src="/images/clouddial_campaign_statistics_button.png">
+
+* To adjust the '**Power Factor**' of the Campaign, click <img style="width: auto; height: 25px;" src="/images/clouddial_powerfactor_adjust.png">
+
+* Answering Machine Detection (AMD), can be toggled ON and OFF, by using the <img style="width: auto; height: 25px;" src="/images/clouddial_amd_on_button.png"> and <img style="width: auto; height: 25px;" src="/images/clouddial_amd_off_button.png"> buttons.
 
 ## Virtual Agent Campaigns
 
