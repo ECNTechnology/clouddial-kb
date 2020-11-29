@@ -118,9 +118,24 @@ Enter the following information:
 
 Click **Next** when ready to proceed.
 
-
-
 ![](/images/clouddial_new_campaign2.png)
+
+Enter the following information:
+
+* **Starting Power Factor:** The starting **[Power Factor](https://kb.clouddial.com.au/guides/cloud-dial/predictive-dialling.html)** can be anywhere from 1.0 to 8.0.
+* **Enable Predictive Dialling:** Tick this option to enable predictive dialling.
+* **Redial Attempts:** The number of times you wish to attempt to reach each contact.
+* **Campaign Script:** Choose from the list of user-created Campaign Scripts.
+* **Integrations:**
+
+  * **Integration Name:** Choose from the list of user-created Integrations.
+  * **Trigger Event:** Choose from 'Call Connect', 'WrapUp', and 'AMD'.
+* **Notes:** Notes entered here will be displayed for all Agents to read while waiting on a call.
+* **Allow Agents to enter Notes:** Tick this option if you want Agents to be allowed to enter notes.
+
+Click **Next** when ready to proceed.
+
+![](/images/clouddial_select_contacts.png)
 
 ### Virtual Agent Campaigns
 
