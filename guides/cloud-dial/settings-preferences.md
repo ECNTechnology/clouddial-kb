@@ -43,7 +43,6 @@ While an Agent is on an active call, they will be offered the following call rec
 Cloud Dial supports the ability to customise the hours in which Cloud Dial will make calls.
 
 
-
 <img style="width: auto; height: auto;" src="/images/clouddial_settings_menu.png">
 
 From the '**Settings**' menu on the left hand side, click '**Preferences**'.
