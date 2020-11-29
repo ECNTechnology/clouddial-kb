@@ -94,7 +94,6 @@ On this screen you can enable / disable any phone numbers for use with Cloud Dia
 
 ![](/images/clouddial_phone_numbers.png)
 
-## Assign Tags
 
 '*Tags*' can be used for intelligent routing of inbound calls.
 
