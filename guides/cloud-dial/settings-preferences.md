@@ -16,31 +16,24 @@ To view your current licenses, select '**Preferences**' from the '**Settings**' 
 
 <img style="width: auto; height: auto;" src="/images/clouddial_settings_menu.png">
 
-
-
 From the '**Preferences**' menu choose '**Licenses**'
 
 ## Call Recordings
 
 In order to meet PCIDSS Compliance, we have enhanced the call recording functionality to enable an Agent to '**mute**' a recording while taking payment or other personal information.
 
-
 While an Agent is on an active call, they will be offered the following call recording options:
+
 ### Recording Options
 
 * To start recording the call, click <img style="width: auto; height: 25px;" src="/images/clouddial_start_recording.png">
-
 * To stop recording the call, click <img style="width: auto; height: 25px;" src="/images/clouddial_stop_recording.png">
-
 * To pause / mask the recording, click <img style="width: auto; height: 25px;" src="/images/clouddial_pause_recording.png">
-
 * To leave a pre-recorded message, click <img style="width: auto; height: 25px;" src="/images/clouddial_leave_voicemail.png">
 
 ## Dialling Hours
 
-
 Cloud Dial supports the ability to customise the hours in which Cloud Dial will make calls.
-
 
 <img style="width: auto; height: auto;" src="/images/clouddial_settings_menu.png">
 
@@ -48,7 +41,8 @@ From the '**Settings**' menu on the left hand side, click '**Preferences**'.
 
 From the '**Preferences**' menu choose '**Dialler Settings**'
 
-<img style="width: auto; height: auto;" src="/images/clouddial_dialler_hours.png">
+
+![](/images/clouddial_dialling_hours.png)
 
 Specify the times you would like your campaigns to dial. 
 
@@ -63,7 +57,6 @@ Click <img style="width: 30px; height: auto;" src="/images/save_button.png"> to 
 When you first activate CloudDial you will be prompted to add your WAN IP Address to the CloudDial firewall.
 This firewall ensures that access is only granted from the IP Addresses that you authorize.
 
-
 Adding additional IP addresses to the CloudDial firewall is a simple proceess that can be done by an existing administrator account.
 
 ![](/images/clouddial_settings_menu.png)
@@ -75,8 +68,6 @@ From the '**Settings**' menu, select '**Preferences**'.
 Select the '**Firewall**' tab from along the top of the screen.
 
 Enter the '**WAN IP Address**' you wish to add and press '**Save**' to save your changes.
-
-
 
 Click '**Delete**' to remove any unused IP Addresses.
 
@@ -94,12 +85,9 @@ On this screen you can enable / disable any phone numbers for use with Cloud Dia
 
 ![](/images/clouddial_phone_numbers.png)
 
-
 '*Tags*' can be used for intelligent routing of inbound calls.
 
 To assign Tags to a number, click the '**Assign Tags**' button.
-
-
 
 ![](/images/clouddial_assign_tags.png)
 
@@ -108,8 +96,6 @@ Enter as many Tags as required, seperated by semi-colons.
 Click '**Save**' when finished.
 
 ## Predictive Dialing
-
-
 
 Until now Cloud Dial call center administrators needed to set a power factor for each campaign.
 
@@ -127,7 +113,6 @@ We have developed three modes of Predictive Dialling, Generous, Moderate and Gre
 
 We recommend greedy only where data quality is consistent (such as customer loyalty campaigns) and moderate to generous when data is unpredictable (such as debt collection).
 
-
 ### Configuration
 
 <img style="width: auto; height: auto;" src="/images/clouddial_settings_menu.png">
@@ -141,15 +126,12 @@ From the '**Preferences**' menu choose '**Dialler Settings**'
 Enter the following settings:
 
 * **Maximum Wait Time (sec):** This is the maximum time you want for an agent to wait for a call.
-
 * **Calls Drop Percentage (%):** This is the maximum percentage of '**NoAgentDetected**' calls you are prepared to accept.
-
 * **Tuning Strategy:** This affects how frequently the power factor will be adjusted. 
   Choose from;
+
   * Generous
-
   * Moderate
-
   * Agressive
 
 ### Enable on Campaign
@@ -197,9 +179,3 @@ Click '**Select**' to open a file browser on your PC and select the file you wou
 :::
 
 Finally, click **'Save'**
-
-
-
-
-
-
