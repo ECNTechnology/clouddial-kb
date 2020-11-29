@@ -41,7 +41,6 @@ From the '**Settings**' menu on the left hand side, click '**Preferences**'.
 
 From the '**Preferences**' menu choose '**Dialler Settings**'
 
-
 ![](/images/clouddial_dialling_hours.png)
 
 Specify the times you would like your campaigns to dial. 
@@ -148,8 +147,6 @@ A recorded sound can be used in many scenarios with your campaigns, once they ha
 
 The process to add / edit recordings is outlined below.
 
-## Adding Sounds to Cloud Dial
-
 ![](/images/clouddial_settings_menu.png)
 
 From the '**Settings**' menu, select '**Preferences**'.
@@ -179,3 +176,22 @@ Click '**Select**' to open a file browser on your PC and select the file you wou
 :::
 
 Finally, click **'Save'**
+
+## Integrations
+
+Cloud Dial Integrations come in two forms:
+
+* **ScreenPop:** This type of integration will open a new tab in your web browser 
+* **Webhook:** This type of integration will send the requested data to a URL of your choice which can then act upon that data.
+
+The process to add / edit integrations is outlined below.
+
+![](/images/clouddial_settings_menu.png)
+
+From the '**Settings**' menu, select '**Preferences**'.
+
+Select the '**Integrations**' tab from along the top of the screen.
+
+
+
+![](/images/clouddial_integrations_overview.png)
