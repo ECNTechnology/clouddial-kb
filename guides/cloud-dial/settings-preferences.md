@@ -307,7 +307,6 @@ You can assign your Wrap Up reasons to a category. This means when creating a ca
 
 - - -
 
-### Managing Wrap Up Reasons
 
 ![](/images/clouddial_webhook_menu.png)
 
@@ -322,7 +321,7 @@ The page is laid out into two distinct areas.
 * The left hand side is dedicated to *existing* Wrap Up reasons.
 * The right hand side is dedicated to the creation of *new* Wrap Up reasons.
 
-#### New Wrap Up Reasons
+### New Wrap Up Reasons
 
 Click '**NEW**' to create a new Wrap Up reason.
 
@@ -342,7 +341,7 @@ Choose between '***success***' or '***failed***'.
 
 Click '***Save*** when finished.
 
-#### Edit existing Wrap Up Reasons
+### Edit existing Wrap Up Reasons
 
 ![](/images/clouddial_wrapup_searchedit.png)
 
