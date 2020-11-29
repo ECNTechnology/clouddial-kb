@@ -178,5 +178,5 @@ Enter the following information:
 Once you are happy with all settings for the campaign, click '**Finish**'.
 
 ## Message Agents.
-Other things
+Other thing
 
