@@ -118,6 +118,25 @@ Enter the following information:
 
 Click **Next** when ready to proceed.
 
+::: tip 
+Optional Step: Selecting Contacts From Previous Campaigns.
+:::
+
+![](/images/clouddial_select_contacts.png)
+
+This page will only be visible if you tick the 'Select contacts from completed campaigns' option.
+
+Here you can search by name for specific Campaigns within the last 7 to 30 days.
+
+Select as many Campaigns in the left column.
+
+Once you select a Campaign in the left column, you will then be able to select different WrapUp Reasons in the right-hand column.
+
+You can also 'Include contacts that were not previously dialled' by ticket the checkbox.
+
+Click **Next** when ready to proceed.
+
+
 ![](/images/clouddial_new_campaign2.png)
 
 Enter the following information:
@@ -135,7 +154,8 @@ Enter the following information:
 
 Click **Next** when ready to proceed.
 
-![](/images/clouddial_select_contacts.png)
+
+
 
 ### Virtual Agent Campaigns
 
