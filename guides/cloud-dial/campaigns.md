@@ -118,10 +118,35 @@ On this screen, you can see any '**Virtual Agent Campaigns**' that you have crea
 
 Note that when you create the new campaign, the status will be '**NEW**' and the campaign is not started, allowing you to create the campaign in advance, and start it when you are ready to begin.
 
+For each Campaign you can perform the following actions.
+
 * To start the Virtual Agent Campaign, click <img style="width: auto; height: 25px;" src="/images/clouddial_campaign_play_button.png">
+
 * To stop the Virtual Agent Campaign, click <img style="width: auto; height: 25px;" src="/images/clouddial_campaign_stop_button.png">
+
 * To pause the Virtual Agent Campaign, click <img style="width: auto; height: 25px;" src="/images/clouddial_campaign_pause_button.png">
+
 * To edit the Virtual Agent Campaign, click <img style="width: auto; height: 25px;" src="/images/clouddial_campaign_edit_button.png">
+
+The column headings provide valuable information to the Campaign Manager.
+
+
+
+* **Name**: The name of the Campaign provided upon creation.
+
+* **Status:** Shows the current status of the campaign.
+
+* **Contacts:** The number of contacts uploaded as part of the campaign.
+
+* **Remain:** The number of contacts that remain to be dialled.
+
+
+* **Progress:** Campaign progression as a percentage.
+
+* **Caller ID:** The outbound caller ID that will be presented for the Campaign.
+
+* **Created:** Shows the Date, Time, and the Manager who created the Campaign.
+
 
 ### Creating a Virtual Agent Campaign
 
