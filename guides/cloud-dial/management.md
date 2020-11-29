@@ -179,6 +179,9 @@ Once you are happy with all settings for the campaign, click '**Finish**'.
 
 ## Agents
 
+As a manager, keeping an eye on your running Campaigns and agents is critical.
+
+You can do so easily from the **Agents** page.
 
 ![](/images/clouddial_agents.png)
 
