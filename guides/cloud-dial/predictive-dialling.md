@@ -1,5 +1,5 @@
 ---
-title: Predictive Dialling*
+title: Predictive Dialling
 date: 2019-07-12T03:09:06.942Z
 ---
 # Predictive Dialing
@@ -26,7 +26,7 @@ We recommend greedy only where data quality is consistent (such as customer loya
 
 ## Configuration
 
-<img style="width: auto; height: auto;" src="/images/clouddial-customagent-1.png">
+<img style="width: auto; height: auto;" src="/images/clouddial_settings_menu.png">
 
 From the '**Settings**' menu on the left hand side, click '**Preferences**'.
 
@@ -37,11 +37,15 @@ From the '**Preferences**' menu choose '**Dialler Settings**'
 Enter the following settings:
 
 * **Maximum Wait Time (sec):** This is the maximum time you want for an agent to wait for a call.
+
 * **Calls Drop Percentage (%):** This is the maximum percentage of '**NoAgentDetected**' calls you are prepared to accept.
+
 * **Tuning Strategy:** This affects how frequently the power factor will be adjusted. 
   Choose from;
   * Generous
+
   * Moderate
+
   * Agressive
 
 ## Enable on Campaign
@@ -52,15 +56,6 @@ When you create a campaign as per normal, instead of setting a specific Power Fa
 
 Start the campaign as per normal.
 
-![](/images/predictivedialling3.png)
 
-Note that the Power Factor now says '**Predictive**'.
 
-## Troubleshooting
-
-If you need to disable predictive dialling mid campaign, you can do this from the '**Campaign Management**' screen.
-
-Click '**Actions**' on the campaign, and click '**Edit**'.
-
-Untick '**Enable Predictive Dialling**' and press '**Next**' until you get to the end.
 
