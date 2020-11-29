@@ -196,7 +196,7 @@ The final step to creating a Campaign, is the choose your WrapUp Reasons.
 
 Use the drop-down box to either select from a user-defined default list of WrapUp reasons, or add your own as you see fit for the campaign.
 
-Click **Next** when you are ready to complete the setup for the Campaign.
+Click **Finish** when you are ready to complete the setup for the Campaign.
 
 # Virtual Agent Campaigns
 
