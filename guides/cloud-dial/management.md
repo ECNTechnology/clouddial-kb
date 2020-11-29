@@ -158,7 +158,6 @@ Click **Next** when ready to proceed.
 Call Handling is separated into two areas.
 
 * **No Agent Handling:** What to do if there is no Agent available to take the call.
-
 * **Call Confirmation:** Request the contact to press a button to accept the call.
 
 Enter the following information:
@@ -166,25 +165,20 @@ Enter the following information:
 * **No Agent Handling:** Choose from any of the following:
 
   * **Hang Up**
-
   * **Retry for an available Agent:** Cloud Dial will wait 15 seconds for an Agent. If no Agent is available after 15 seconds, Cloud Dial will play the 'Timeout Message'.
-
   * **Play Message and Hang Up:** Plays message then hangs up.
-
 * Use the drop-down box to select a **Timeout/Playback Message**.
 
 Tick the checkbox if you wish to make use of the 'Call Confirmation' feature.
 
 * **Call Confirmation Key:** This is the key that will need to be pressed to accept the call.
-
 * **Call Confirmation Message:** This is the message that will be played to the contact. This message should prompt them to press the 'Call Confirmation Key' to accept the call.
-
 
 Click **Next** when ready to proceed.
 
 
 
-
+![](/images/clouddial_amd_settings.png)
 
 # Virtual Agent Campaigns
 
