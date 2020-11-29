@@ -176,9 +176,27 @@ Tick the checkbox if you wish to make use of the 'Call Confirmation' feature.
 
 Click **Next** when ready to proceed.
 
-
-
 ![](/images/clouddial_amd_settings.png)
+
+If you wish to make use of [AMD](https://kb.clouddial.com.au/guides/cloud-dial/answering-machine-detection.html) for this Campaign, tick the checkbox.
+
+You will need to specify what to do in the even an answering machine is detected. 
+
+Choose from:
+
+* Hangup
+* Leave a pre-recorded message.
+
+Click **Next** when ready to proceed.
+
+
+![](/images/clouddial_campaign_wrapup.png)
+
+The final step to creating a Campaign, is the choose your WrapUp Reasons.
+
+Use the drop-down box to either select from a user-defined default list of WrapUp reasons, or add your own as you see fit for the campaign.
+
+Click **Next** when you are ready to complete the setup for the Campaign.
 
 # Virtual Agent Campaigns
 
