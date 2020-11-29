@@ -17,7 +17,7 @@ There are two campaign types:
 From the Management menu on the left hand side of the screen, select '**Campaigns**'.
 
 
-![](/images/clouddial_general_campaign.png)
+![](/images/clouddial_campaign_overview.png)
 
 On this screen, you can see in the top section, all '**General Campaigns**' that you have created.
 
