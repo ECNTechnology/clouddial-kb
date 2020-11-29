@@ -101,7 +101,26 @@ To start a new campaign, click 'New Campaign'.
 
 ![](/images/clouddial_new_campaign1.png)
 
+Enter the following information:
 
+* **Campaign Name:** This name is for your reference.
+* **Country:** Choose between Australia & New Zealand.
+* **Direction:** The direction of the Campaign.
+
+  * **Outbound:** Used for Campaigns where no return call is expected.
+  * **Inbound:** Used for Campaigns where only inbound calls are required.
+  * **Blended:** Used for Campaigns where both inbound and outbound calls are required.
+* **Caller ID:** Choose a number to be used for outbound caller ID. (You can also tick the checkbox if you wish to send private caller ID).
+* **Select Contacts:** There are two ways to select contacts for your Campaign.
+
+  * Click the 'Upload File' button, to upload a contact list.
+  * Tick the 'Select contacts from completed campaigns' option.
+
+Click **Next** when ready to proceed.
+
+
+
+![](/images/clouddial_new_campaign2.png)
 
 ### Virtual Agent Campaigns
 
