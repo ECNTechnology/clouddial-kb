@@ -45,7 +45,7 @@ Choose between '***success***' or '***failed***'.
 
 Click '***Save*** when finished.
 
-### Edit existing Wrap Up Reason
+### Edit existing Wrap Up Reasons
 
 ![](/images/clouddial_wrapup_searchedit.png)
 
@@ -54,7 +54,3 @@ Use the dropdown to select the category, then use the searchbox to filter the re
 To edit an existing Wrap Up reason, click '**Edit**'.
 
 When you have made your changes, click '**Save**'.
-
-
-
-
