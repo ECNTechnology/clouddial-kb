@@ -4,7 +4,6 @@ date: 2020-11-29T04:38:30.752Z
 ---
 ## Campaigns 
 
-### Campaign Types
 
 There are two campaign types:
 
@@ -184,6 +183,58 @@ As a manager, keeping an eye on your running Campaigns and agents is critical.
 You can do so easily from the **Agents** page.
 
 ![](/images/clouddial_agents.png)
+
+On this page you can view Agent performance across Campaigns.
+
+* Use the drop-down field to select or search for a specific Campaign.
+
+* On the top right-hand side you can choose between viewing data from today only or for a Full Campaign.
+
+The column headings provide valuable information to the Manager.
+
+* **Campaign/s:** The name of the Campaign.
+
+* **Agent/s:** The Agents name, or the Campaign Total.
+
+* **Action/s:** Click the <img style="width: auto; height: 25px;" src="/images/clouddial_logout_agent_button.png"> button to log the Agent out of Cloud Dial.
+
+* **Extensions:** The Agents extension number.
+
+* **Status:** The Agents current status.
+
+* **Last Modified:** The last modified date/time.
+
+* **Sessions:** The total number of sessions for the user (how many times that user has joined the Campaign).
+
+* **Break:** During this time the Agent will not receive any calls. There are three metrics in the category:
+
+  * **Count:** How many times the Agent entered 'Break' status.
+
+
+  * **Total:** Total time (in seconds) the Agent spent in 'Break' status.
+
+  * **Avg:** The average time (in seconds) the Agent spent in 'Break' status.
+* **Idle:** During this time the Agent is waiting for the next call. There are three metrics in the category:
+
+  * **Count:** How many times the Agent entered 'Idle' status.
+
+  * **Total:** Total time (in seconds) the Agent spent in 'Idle' status.
+
+  * **Avg:** The average time (in seconds) the Agent spent in 'Idle' status.
+
+* **Call Handling:** During this time the Agent is either talking on a call, or completing a call.
+There are 5 metrics in the category:
+
+  * **Count:** Total number of calls the Agent has made/taken.
+
+  * **Total:** Total time (in seconds) the Agent spent on calls.
+
+  * **Avg:** The average time (in seconds) the Agent spent on calls.
+
+  * **Suc:** Total number of calls completed using a 'successful wrapup metric'.
+
+  * **Unsuc:** Total number of calls completed using an 'unsuccessful wrapup metric'.
+
 
 
 
