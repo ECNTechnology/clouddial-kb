@@ -257,7 +257,7 @@ Enter the following:
 
 * **Select Campaign:** From the menu, select the Campaign/s that you wish to message.
 
-* **Select Agents:*8 Choose which Agents should receive the message.
+* **Select Agents:** Choose which Agents should receive the message.
 
 When you are ready to send the message, click <img style="width: auto; height: 25px;" src="/images/clouddial_send_button.png">
 
