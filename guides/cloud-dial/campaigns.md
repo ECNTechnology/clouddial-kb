@@ -21,6 +21,7 @@ From the Management menu on the left hand side of the screen, select '**Campaign
 
 On this screen, you can see in the top section, all '**General Campaigns**' that you have created.
 
+For each Campaign you can perform the following actions.
 
 * To start the Campaign, click <img style="width: auto; height: 25px;" src="/images/clouddial_campaign_play_button.png">
 
@@ -32,6 +33,57 @@ On this screen, you can see in the top section, all '**General Campaigns**' that
 
 * To view statistics about the Campaign, click <img style="width: auto; height: 25px;" src="/images/clouddial_campaign_statistics_button.png">
 
+* To adjust the '**Power Factor**' of the Campaign, click <img style="width: auto; height: 25px;" src="/images/clouddial_powerfactor_adjust.png">
+
+* Answering Machine Detection (AMD), can be toggled on and off, by using the <img style="width: auto; height: 25px;" src="/images/clouddial_amd_on_button.png"> and <img style="width: auto; height: 25px;" src="/images/clouddial_amd_off_button.png"> buttons.
+
+The column headings provide valuable information to the Campaign Manager.
+
+* **Name**: The name of the Campaign provided upon creation.
+
+* **Direction**: The direction of the Campaign.
+
+  * **Outbound:** Used for Campaigns where no return call is expected.
+
+  * **Inbound:** Used for Campaigns where only inbound calls are required.
+
+  * **Blended:** Used for Campaigns where both inbound and outbound calls are required.
+
+* **Status:** Shows the current status of the campaign.
+
+* **Agents:** The number of Agents currently signed into the Campaign.
+
+* **Contacts:** The number of contacts uploaded as part of the campaign.
+
+* **Remain:** The number of contacts that remain to be dialled.
+
+* **Callbacks:** The number of callbacks registered for the Campaign so far.
+
+* **Progress:** Campaign progression as a percentage.
+
+* **Caller ID:** The outbound caller ID that will be presented for the Campaign.
+
+* **Power Factor:** The [**Power Factor**](https://kb.clouddial.com.au/guides/cloud-dial/predictive-dialling.html) can be adjusted by using the arrows.
+
+* **AMD:** Adjust your [**AMD**] (https://kb.clouddial.com.au/guides/cloud-dial/answering-machine-detection.html) settings by clicking the on / off button.
+
+* **Avg. Wait:** The average time (in seconds) an Agent is waiting between calls, once entering 'Ready State'.
+
+* **Avg. Call:** The average duration (in seconds) of each call.
+
+* **Avg. Wrap Up:** The average time (in seconds) an Agent is taking to wrapup each call.
+
+* **Drop Calls:** The number of calls that were not servicable by Agents. (This can indicate a high [**Power Factor**](https://kb.clouddial.com.au/guides/cloud-dial/predictive-dialling.html).)
+
+* **Created:** Shows the Date, Time, and the Manager who created the Campaign.
+
+
+
+
+
+
+
+ 
 ## Virtual Agent Campaigns
 
 A '**Virtual Agent Campaign**' is a fully automated outbound campaign with no user agents involved. 
