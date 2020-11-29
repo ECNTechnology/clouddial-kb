@@ -27,3 +27,26 @@ Here you can choose from a list of currently available reports.
 * **Non Contacted Contacts Report:** List of contacts that were not able to be contacted for a given campaign.
 
 Fill in the relevent details, then click <img style="width: auto; height: 25px;" src="/images/clouddial_view_report_button.png"> 
+
+The report will open in a new tab and can then be printed (or saved as a PDF), by clicking the <img style="width: auto; height: 25px;" src="/images/clouddial_print_button.png"> button in the top left-hand corner of the window.
+
+You can also download portions of the report by clicking on the <img style="width: auto; height: 25px;" src="/images/clouddial_download_button.png"> buttons located throughout each report. 
+
+Where applicable, you will be able to download the data in the following formats:
+
+* JSON
+
+* XML
+
+* CSV
+
+* TXT
+
+* SQL
+
+* MX-Excel
+
+* PDF
+
+
+
