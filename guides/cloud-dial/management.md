@@ -236,5 +236,30 @@ There are 5 metrics in the category:
   * **Unsuc:** Total number of calls completed using an 'unsuccessful wrapup metric'.
 
 
+## Message Agents
+
+From the Management menu on the left hand side of the screen, select 'Message Agents'.
+
+![](/images/clouddial_message_agents_prev.png)
+
+Here you can see all of your previous messages that have been sent to Agents.
+
+To send a new message, click 'New Message'.
+
+![](/images/clouddial_message_agents.png)
+
+
+Enter the following:
+
+* **Message:** This is the message that will be displayed to the Agents.
+
+* **Select Campaign:** From the menu, select the Campaign/s that you wish to message.
+
+* **Select Agents:*8 Choose which Agents should receive the message.
+
+When you are ready to send the message, click <img style="width: auto; height: 25px;" src="/images/clouddial_send_button.png">
+
+
+
 
 
