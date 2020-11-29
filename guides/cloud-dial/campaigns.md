@@ -33,9 +33,9 @@ For each Campaign you can perform the following actions.
 
 * To view statistics about the Campaign, click <img style="width: auto; height: 25px;" src="/images/clouddial_campaign_statistics_button.png">
 
-* To adjust the '**Power Factor**' of the Campaign, click <img style="width: auto; height: 25px;" src="/images/clouddial_powerfactor_adjust.png">
+* To adjust the [**Power Factor**](https://kb.clouddial.com.au/guides/cloud-dial/predictive-dialling.html) of the Campaign, click <img style="width: auto; height: 25px;" src="/images/clouddial_powerfactor_adjust.png">
 
-* Answering Machine Detection (AMD), can be toggled on and off, by using the <img style="width: auto; height: 25px;" src="/images/clouddial_amd_on_button.png"> and <img style="width: auto; height: 25px;" src="/images/clouddial_amd_off_button.png"> buttons.
+* Answering Machine Detection ([**AMD**] (https://kb.clouddial.com.au/guides/cloud-dial/answering-machine-detection.html)), can be toggled on and off, by using the <img style="width: auto; height: 25px;" src="/images/clouddial_amd_on_button.png"> and <img style="width: auto; height: 25px;" src="/images/clouddial_amd_off_button.png"> buttons.
 
 The column headings provide valuable information to the Campaign Manager.
 
@@ -73,7 +73,7 @@ The column headings provide valuable information to the Campaign Manager.
 
 * **Avg. Wrap Up:** The average time (in seconds) an Agent is taking to wrapup each call.
 
-* **Drop Calls:** The number of calls that were not servicable by Agents. (This can indicate a high [**Power Factor**](https://kb.clouddial.com.au/guides/cloud-dial/predictive-dialling.html).)
+* **Drop Calls:** The number of calls that were not servicable by Agents. This can indicate a high [**Power Factor**](https://kb.clouddial.com.au/guides/cloud-dial/predictive-dialling.html).
 
 * **Created:** Shows the Date, Time, and the Manager who created the Campaign.
 
