@@ -12,6 +12,14 @@ When creating your campaign you will be given the option to enable AMD.
 Note that in order to activate AMD you will need to contact your administrator and purchase your AMD licenses.
 :::
 
+To view your current licenses, select '**Preferences**' from the '**Settings**' menu.
+
+<img style="width: auto; height: auto;" src="/images/clouddial_settings_menu.png">
+
+
+
+From the '**Preferences**' menu choose '**Licenses**'
+
 # Call Recordings
 
 ::: tip
