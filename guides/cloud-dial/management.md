@@ -101,7 +101,41 @@ To start a new campaign, click 'New Campaign'.
 
 ![](/images/clouddial_new_campaign1.png)
 
+Enter the following information:
 
+* **Campaign Name:** This name is for your reference.
+* **Country:** Choose between Australia & New Zealand.
+* **Direction:** The direction of the Campaign.
+
+  * **Outbound:** Used for Campaigns where no return call is expected.
+  * **Inbound:** Used for Campaigns where only inbound calls are required.
+  * **Blended:** Used for Campaigns where both inbound and outbound calls are required.
+* **Caller ID:** Choose a number to be used for outbound caller ID. (You can also tick the checkbox if you wish to send private caller ID).
+* **Select Contacts:** There are two ways to select contacts for your Campaign.
+
+  * Click the 'Upload File' button, to upload a contact list.
+  * Tick the 'Select contacts from completed campaigns' option.
+
+Click **Next** when ready to proceed.
+
+![](/images/clouddial_new_campaign2.png)
+
+Enter the following information:
+
+* **Starting Power Factor:** The starting **[Power Factor](https://kb.clouddial.com.au/guides/cloud-dial/predictive-dialling.html)** can be anywhere from 1.0 to 8.0.
+* **Enable Predictive Dialling:** Tick this option to enable predictive dialling.
+* **Redial Attempts:** The number of times you wish to attempt to reach each contact.
+* **Campaign Script:** Choose from the list of user-created Campaign Scripts.
+* **Integrations:**
+
+  * **Integration Name:** Choose from the list of user-created Integrations.
+  * **Trigger Event:** Choose from 'Call Connect', 'WrapUp', and 'AMD'.
+* **Notes:** Notes entered here will be displayed for all Agents to read while waiting on a call.
+* **Allow Agents to enter Notes:** Tick this option if you want Agents to be allowed to enter notes.
+
+Click **Next** when ready to proceed.
+
+![](/images/clouddial_select_contacts.png)
 
 ### Virtual Agent Campaigns
 
