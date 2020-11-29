@@ -2,18 +2,17 @@
 title: Management
 date: 2020-11-29T04:38:30.752Z
 ---
-# Management
+## Campaigns 
 
-# Campaigns 
-
-## Campaign Types
+### Campaign Types
 
 There are two campaign types:
 
 * General Campaigns.
+
 * Virtual Agent Campaigns.
 
-## General Campaigns
+### General Campaigns
 
 
 ![](/images/clouddial_new_virtualagent_campaign.png)
@@ -82,13 +81,13 @@ The column headings provide valuable information to the Campaign Manager.
 * **Created:** Shows the Date, Time, and the Manager who created the Campaign.
 
  
-## Virtual Agent Campaigns
+### Virtual Agent Campaigns
 
 A '**Virtual Agent Campaign**' is a fully automated outbound campaign with no user agents involved. 
 
 This campaign will make outbound calls and play an automated message.
 
-### Call Flow
+#### Call Flow
 
 <img style="width: auto; height: auto;" src="/images/blaster_amd_disabled.png">
 
@@ -146,7 +145,7 @@ The column headings provide valuable information to the Campaign Manager.
 * **Created:** Shows the Date, Time, and the Manager who created the Campaign.
 
 
-### Creating a Virtual Agent Campaign
+#### Creating a Virtual Agent Campaign
 
 ![](/images/clouddial_management_screen.png)
 
