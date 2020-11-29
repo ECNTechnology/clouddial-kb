@@ -2,7 +2,7 @@
 title: Settings & Preferences
 date: 2020-11-29T07:20:13.764Z
 ---
-# Answering Machine Detection (AMD)
+## Answering Machine Detection (AMD)
 
 Answering Machine Detection frees up your Agents from leaving voicemails and allows you to leave a pre-recorded voicemail whenever an answering machine is detected.
 
@@ -20,11 +20,10 @@ To view your current licenses, select '**Preferences**' from the '**Settings**' 
 
 From the '**Preferences**' menu choose '**Licenses**'
 
-# Call Recordings
+## Call Recordings
 
-::: tip
-**New Feature:** In order to meet PCIDSS Compliance, we have enhanced the call recording functionality to enable an Agent to '**mute**' a recording while taking payment or other personal information.
-:::
+In order to meet PCIDSS Compliance, we have enhanced the call recording functionality to enable an Agent to '**mute**' a recording while taking payment or other personal information.
+
 
 While an Agent is on an active call, they will be offered the following call recording options:
 ### Recording Options
@@ -37,7 +36,7 @@ While an Agent is on an active call, they will be offered the following call rec
 
 * To leave a pre-recorded message, click <img style="width: auto; height: 25px;" src="/images/clouddial_leave_voicemail.png">
 
-# Dialling Hours
+## Dialling Hours
 
 
 Cloud Dial supports the ability to customise the hours in which Cloud Dial will make calls.
@@ -59,7 +58,7 @@ Click <img style="width: 30px; height: auto;" src="/images/save_button.png"> to 
 **NOTE:** This will affect all campaigns.
 :::
 
-# Firewall
+## Firewall
 
 When you first activate CloudDial you will be prompted to add your WAN IP Address to the CloudDial firewall.
 This firewall ensures that access is only granted from the IP Addresses that you authorize.
@@ -81,7 +80,7 @@ Enter the '**WAN IP Address**' you wish to add and press '**Save**' to save your
 
 Click '**Delete**' to remove any unused IP Addresses.
 
-# Phone Numbers
+## Phone Numbers
 
 Phone numbers need to be enabled specifically for Cloud Dial.
 
@@ -95,7 +94,6 @@ On this screen you can enable / disable any phone numbers for use with Cloud Dia
 
 ![](/images/clouddial_phone_numbers.png)
 
-## Assign Tags
 
 '*Tags*' can be used for intelligent routing of inbound calls.
 
@@ -109,9 +107,8 @@ Enter as many Tags as required, seperated by semi-colons.
 
 Click '**Save**' when finished.
 
-# Predictive Dialing
+## Predictive Dialing
 
-## Introduction
 
 
 Until now Cloud Dial call center administrators needed to set a power factor for each campaign.
@@ -131,7 +128,7 @@ We have developed three modes of Predictive Dialling, Generous, Moderate and Gre
 We recommend greedy only where data quality is consistent (such as customer loyalty campaigns) and moderate to generous when data is unpredictable (such as debt collection).
 
 
-## Configuration
+### Configuration
 
 <img style="width: auto; height: auto;" src="/images/clouddial_settings_menu.png">
 
@@ -155,7 +152,7 @@ Enter the following settings:
 
   * Agressive
 
-## Enable on Campaign
+### Enable on Campaign
 
 ![](/images/predictivedialling2.png)
 
@@ -163,7 +160,7 @@ When you create a campaign as per normal, instead of setting a specific Power Fa
 
 Start the campaign as per normal.
 
-# Recorded Sounds
+## Recorded Sounds
 
 A recorded sound can be used in many scenarios with your campaigns, once they have been uploaded.
 
