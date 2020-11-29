@@ -22,9 +22,8 @@ From the '**Preferences**' menu choose '**Licenses**'
 
 # Call Recordings
 
-::: tip
-**New Feature:** In order to meet PCIDSS Compliance, we have enhanced the call recording functionality to enable an Agent to '**mute**' a recording while taking payment or other personal information.
-:::
+In order to meet PCIDSS Compliance, we have enhanced the call recording functionality to enable an Agent to '**mute**' a recording while taking payment or other personal information.
+
 
 While an Agent is on an active call, they will be offered the following call recording options:
 ### Recording Options
