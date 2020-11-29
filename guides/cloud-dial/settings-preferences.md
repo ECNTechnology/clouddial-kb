@@ -31,7 +31,6 @@ While an Agent is on an active call, they will be offered the following call rec
 
 # Dialling Hours
 
-## Description
 
 Cloud Dial supports the ability to customise the hours in which Cloud Dial will make calls.
 
@@ -43,7 +42,7 @@ From the '**Settings**' menu on the left hand side, click '**Preferences**'.
 
 From the '**Preferences**' menu choose '**Dialler Settings**'
 
-<img style="width: auto; height: auto;" src="/images/clouddial_diallier_hours.png">
+<img style="width: auto; height: auto;" src="/images/clouddial_dialler_hours.png">
 
 Specify the times you would like your campaigns to dial. 
 
