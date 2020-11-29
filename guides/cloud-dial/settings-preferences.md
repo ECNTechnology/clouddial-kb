@@ -12,6 +12,14 @@ When creating your campaign you will be given the option to enable AMD.
 Note that in order to activate AMD you will need to contact your administrator and purchase your AMD licenses.
 :::
 
+To view your current licenses, select '**Preferences**' from the '**Settings**' menu.
+
+<img style="width: auto; height: auto;" src="/images/clouddial_settings_menu.png">
+
+
+
+From the '**Preferences**' menu choose '**Licenses**'
+
 # Call Recordings
 
 ::: tip
@@ -33,7 +41,6 @@ While an Agent is on an active call, they will be offered the following call rec
 
 
 Cloud Dial supports the ability to customise the hours in which Cloud Dial will make calls.
-
 
 
 <img style="width: auto; height: auto;" src="/images/clouddial_settings_menu.png">
