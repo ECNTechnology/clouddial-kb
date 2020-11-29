@@ -6,7 +6,6 @@ date: 2020-03-16T10:31:44.610Z
 
 The *Reports Page* contains a list of reports that allow greater insight into completed campaigns.
 
-![](/images/clouddial_reporting_menu.png)
 
 From the 'Reports & Dashboard' menu on the left-hand side of the screen, select 'Reports'.
 
