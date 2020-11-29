@@ -192,6 +192,14 @@ From the '**Settings**' menu, select '**Preferences**'.
 
 Select the '**Integrations**' tab from along the top of the screen.
 
-
-
 ![](/images/clouddial_integrations_overview.png)
+
+On this page, you can see both your active & disabled integrations.
+
+* Click the '**Edit**' to modify an Integration.
+
+* Click '**Disable**' to temporarily disable an Integration.
+
+* Click <img style="width: auto; height: 25px;" src="/images/clouddial_add_new_integration.png"> to add a new Integration.
+
+
