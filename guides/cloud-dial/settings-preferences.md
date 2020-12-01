@@ -70,7 +70,6 @@ Enter the '**WAN IP Address**' you wish to add and press '**Save**' to save your
 
 Click '**Delete**' to remove any unused IP Addresses.
 
-
 ## Integrations
 
 Cloud Dial Integrations come in two forms:
@@ -91,14 +90,11 @@ Select the '**Integrations**' tab from along the top of the screen.
 On this page, you can see both your active & disabled integrations.
 
 * Click '**Edit**' to modify an Integration.
-
 * Click '**Disable**' to temporarily disable an Integration.
-
 
 ### Add New Integration
 
 Click <img style="width: auto; height: 25px;" src="/images/clouddial_add_new_integration.png"> to add a new Integration.
-
 
 When adding new Integrations, there are four components:
 
@@ -107,40 +103,27 @@ When adding new Integrations, there are four components:
 ![](/images/clouddial_integration_details.png)
 
 * **Integration Name:** A descriptive name for your reference.
-
 * **Type:**
-  
+
   * **ScreenPop:** This type of integration will open a new tab in your web browser 
-
   * **Webhook:** This type of integration will send the requested data to a URL of your choice which can then act upon that data.
-
 * **Request URL:** 
 
   * When using 'ScreenPop', this is the URL that will open in a new tab.
-
   * When using 'Webhook', this is the URL Cloud Dial will send the data to.
-
 * **Method:** Choose from 'GET' & 'POST'.
-
 * **Fromat:** Choose from 'QUERY' & 'JSON'.
-
 * **Path Arguments:** Enter any path arguments here.
-
 * **Trigger Event:** The Integration can trigger on either 'Call Connect', 'WrapUp', or 'AMD'.
-
 
 #### Authentication
 
 ![](/images/clouddial_integration_authentication.png)
 
 * **Authentication Type:** Choose from 'None', 'Basic Auth', and 'Token' based authentication.
-
 * **Username:** Enter in as needed.
-
 * **Password:** Enter in as needed.
-
 * **Token:** Enter in as needed.
-
 
 #### Header Values
 
@@ -149,7 +132,6 @@ When adding new Integrations, there are four components:
 Add the following details as needed.
 
 * Request Name
-
 * Request Value
 
 To add additional header values, click the <img style="width: auto; height: 25px;" src="/images/clouddial_plus_button.png"> button.
@@ -161,34 +143,20 @@ To add additional header values, click the <img style="width: auto; height: 25px
 Add the following details as needed.
 
 * Request Key
-
 * Request Value:
-  
+
   * Campaign Name
-  
-  *  Customer Reference
-
+  * Customer Reference
   * Customer Name
-
   * Date/Time
-
   * Dial Result
-
   * Dial Result Notes
-
   * Phone Called
-
   * Agent Name
-
   * Wrap Up By
-
   * Wrap Up Reason
 
 When finished, click the <img style="width: auto; height: 25px;" src="/images/clouddial_save_button.png"> button.
-
-
-
-
 
 ## Phone Numbers
 
@@ -251,11 +219,11 @@ Enter the following settings:
 
   * Generous
   * Moderate
-  * Agressive
+  * Aggressive
 
 ### Enable on Campaign
 
-![](/images/predictivedialling2.png)
+![](/images/clouddial_predictive_1.png)
 
 When you create a campaign as per normal, instead of setting a specific Power Factor, tick '**Enable Predictive Dialling**'.
 
@@ -297,8 +265,6 @@ Click '**Select**' to open a file browser on your PC and select the file you wou
 
 Finally, click **'Save'**
 
-
-
 ## Wrap Up Reasons
 
 A Wrap Up reason allows the agent to click a single button when ending the call to signify the outcome of the call for easy reporting.
@@ -306,7 +272,6 @@ A Wrap Up reason allows the agent to click a single button when ending the call 
 You can assign your Wrap Up reasons to a category. This means when creating a campaign, you can add all the Wrap Up reasons in a category with a single click.
 
 - - -
-
 
 ![](/images/clouddial_webhook_menu.png)
 
