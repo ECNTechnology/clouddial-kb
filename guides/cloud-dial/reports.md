@@ -161,5 +161,5 @@ Where applicable, you will be able to download the data in the following formats
  <tr><td>Temporarily Unavailable</td><td>Other Failure - Unspecified</td><td>Call failure reason not provided by the destination network</td><td>&nbsp;</td><td>Call Failed</td></tr>
  <tr><td>No Answer</td><td>Timeout waiting for remote party</td><td>Call timeout value was reached before remote party answered</td><td>&nbsp;</td><td>Call Failed</td></tr>
  <tr><td>No Answer</td><td>Remote party ended call with no answer</td><td>Remote party did not respond</td><td>&nbsp;</td><td>Call Failed</td></tr>
- <tr><td>Not Confirmed</td><td>Call Confirmation Not Received</td><td>Call connected however confirmation was provided by the remote party</td><td>Call Connected</td><td></td></tr>
+ <tr><td>Not Confirmed</td><td>Call Confirmation Not Received</td><td>Call connected however confirmation was not provided by the remote party</td><td>Call Connected</td><td></td></tr>
 </tbody></table>
