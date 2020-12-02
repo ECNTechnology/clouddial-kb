@@ -168,7 +168,7 @@ Where applicable, you will be able to download the data in the following formats
 
 ::: tip 
 
-**NOTE:** Any other cause not considered will be set by default as "Call Connected"
+**NOTE:** Any other cause not considered will be set by default as "Call Connected".
 
 :::
 
