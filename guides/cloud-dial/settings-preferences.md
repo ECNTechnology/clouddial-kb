@@ -214,8 +214,7 @@ Enter the following settings:
 
 * **Maximum Wait Time (sec):** This is the maximum time you want for an agent to wait for a call.
 * **Calls Drop Percentage (%):** This is the maximum percentage of '**NoAgentDetected**' calls you are prepared to accept.
-* **Tuning Strategy:** This affects how frequently the power factor will be adjusted. 
-  Choose from;
+* **Tuning Strategy:** This affects how Cloud Dial will adjust the Power Factor.  Choose from;
 
   * Generous
   * Moderate
