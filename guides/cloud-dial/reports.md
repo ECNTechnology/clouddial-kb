@@ -163,3 +163,12 @@ Where applicable, you will be able to download the data in the following formats
  <tr><td>No Answer</td><td>Remote party ended call with no answer</td><td>Remote party did not respond</td><td>&nbsp;</td><td>Call Failed</td></tr>
  <tr><td>Not Confirmed</td><td>Call Confirmation Not Received</td><td>Call connected however confirmation was not provided by the remote party</td><td>Call Connected</td><td></td></tr>
 </tbody></table>
+
+* \* Global Configuration Option
+
+::: tip 
+
+**NOTE:** Any other cause not considered will be set by default as "Call Connected"
+
+:::
+
