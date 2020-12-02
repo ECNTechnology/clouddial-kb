@@ -123,3 +123,43 @@ Where applicable, you will be able to download the data in the following formats
 * MX-Excel
 
 * PDF
+
+## Call Results & Definitions
+
+
+<style type="text/css">
+	table.tableizer-table {
+		font-size: 12px;
+		border: 1px solid #CCC; 
+		font-family: Arial, Helvetica, sans-serif;
+	} 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.tableizer-table th {
+		background-color: #104E8B; 
+		color: #FFF;
+		font-weight: bold;
+	}
+</style>
+<table class="tableizer-table">
+<thead><tr class="tableizer-firstrow"><th>Result</th><th>Result Notes</th><th>Definition</th><th>Log Type</th><th>Log Type Cont</th></tr></thead><tbody>
+ <tr><td>AMD</td><td>&nbsp;</td><td>Answering Machine Detection</td><td>Call Connected*</td><td>Call Failed*</td></tr>
+ <tr><td>No Agent</td><td>&nbsp;</td><td>No available call centre agent was available to take connected call</td><td>Call Connected</td><td>&nbsp;</td></tr>
+ <tr><td>Busy</td><td>&nbsp;</td><td>Busy signal was detected on the dialled number</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Connected</td><td>&nbsp;</td><td>Call connected</td><td>Call Connected</td><td>&nbsp;</td></tr>
+ <tr><td>Hard Failure</td><td>Disconnected, Restricted or Rejected (487)</td><td>Disconnected or inbound call restrictions</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Hard Failure</td><td>Disconnected (487)</td><td>Disconnected or inbound call restrictions</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Hard Failure</td><td>Disconnected (404)</td><td>Disconnected</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Temporarily Unavailable</td><td>Restricted or Rejected (408)</td><td>Inbound call restrictions or remote party rejected call</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Temporarily Unavailable</td><td>Party currently unavailable. (480)</td><td>Remote party is currently not accepting calls</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Temporarily Unavailable</td><td>Rejected or Forbidden (403)</td><td>Remote party rejected the call or remote destination is temporarily out of order</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Temporarily Unavailable</td><td>Call Rejected (603)</td><td>Call was rejected by the remote party or remote destination is temporarily out of order</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Temporarily Unavailable</td><td>Network Congestion</td><td>Network congestion exists to the remote party</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Temporarily Unavailable</td><td>Other Failure - Unspecified</td><td>Call failure reason not provided by the destination network</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>No Answer</td><td>Timeout waiting for remote party</td><td>Call timeout value was reached before remote party answered</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>No Answer</td><td>Remote party ended call with no answer</td><td>Remote party did not respond</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Not Confirmed</td><td>Call Confirmation Not Received</td><td>Call connected however confirmation was provided by the remote party</td><td>Call Connected</td><td></td></tr>
+</tbody></table>
