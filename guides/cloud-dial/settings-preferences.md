@@ -210,7 +210,7 @@ This value in % is the target maximum acceptable NoAgent %.
 
 **Generous**, **Moderate** and **Aggressive** tuning strategies determine how much change the Power Factor undergoes at each sampling period.   An aggressive strategy will make a large change order to achieve less than the maximum target wait times within the target call drop %, a moderate or generous tuning strategy will make smaller adjustments to the power factor.
 
-The Predictive dialler will continually adjust the Power Factor to meet keep within the call drop % whilst aiming to keep agent idle times within the maximum wait time in seconds.
+The Predictive dialler will continually adjust the Power Factor to keep within the call drop % whilst aiming to keep agent idle times within the maximum wait time in seconds.
  
 We recommend Aggressive tuning where call data quality is consistent (such as customer loyalty campaigns) and moderate or generous when call data quality is unpredictable (such as debt collection applications).   
  
