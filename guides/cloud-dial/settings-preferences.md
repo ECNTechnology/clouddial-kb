@@ -217,8 +217,8 @@ We recommend Aggressive tuning where call data quality is consistent (such as cu
 Where call data is unpredictable an aggressive strategy may over tune the power factor, it is recommended that the Cloud Dial Manager observe the operation of a running campaign to review the appropriate strategy to use.
 
 
-::: **TIP:**
-when a campaign is in predictive mode, the Cloud Dial administrator can override the current predictive value, this can be beneficial if the predictive algorithm is under or over performing or to move the Campaign towards an optimal busyness quickly.
+::: TIP
+**TIP:** When a campaign is in predictive mode, the Cloud Dial administrator can override the current predictive value, this can be beneficial if the predictive algorithm is under or over performing or to move the Campaign towards an optimal busyness quickly.
 :::
 
 
