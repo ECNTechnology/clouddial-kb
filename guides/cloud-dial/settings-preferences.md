@@ -184,21 +184,43 @@ Click '**Save**' when finished.
 
 ## Predictive Dialing
 
-Until now Cloud Dial call center administrators needed to set a power factor for each campaign.
+The Power Factor is an important setting that controls how many calls Cloud Dial makes with consideration to the number of waiting (idle) agents and calls in the dialling state.
 
-The Power Factor was an important setting that controlled how many calls Cloud Dial makes based on the number of waiting (idle) agents.  For example, a Power Factor of 2.0x means that if there were 10 idle agents, Cloud Dial would attempt to dial 20 calls.
+::: tip
+**Example:** A Power Factor of 2.0x means that if there were 10 idle agents, Cloud Dial would attempt to dial 20 calls.
+:::
+ 
+The challenge for Call Center administrators has always been determining the correct power factor for each campaign. 
+ 
+A campaign with significant poor quality phone number data may mean a high power factor is required to keep Agents busy on calls, however, a campaign operating with high-quality call data would likely mean the opposite, a low Power Factor closer to 1:1 (calls to agents) would be advantageous.
 
-The challenge for Call Center administrators has always been determining the correct power factor for each campaign.  A campaign with significant bad phone number data may mean a very high power factor is needed to keep Agents busy on calls, but a campaign run with high-quality call data would likely mean the opposite, a low Power Factor closer to 1:1 (calls to agents).
+Predictive Dialing automates the setting of a Power Factor replacing the need to set a specific value on each campaign.  By enabling Predictive Dialing, Cloud Dial will automatically determine and adjust the required number of calls made to meet the needs of the call center.
+ 
+To enable Predictive Dialling, configure the following parameters in **Dialler Settings** under **Preferences**.
 
-This is why we have developed Predictive Dialing.
+**Target maximum wait time (sec)**
 
-Predictive Dialing replaces the need to set a specific Power Factor on a campaign, rather by enabling Predictive Dialing Cloud Dial will automatically determine and adjust the required number of calls made to meet the needs of the call center, keeping agents busy and minimizing No Agent situations, when more calls were made then available agents.
+This value in seconds is the target maximum (acceptable) time in Idle (seconds waiting to receive a call) that the call centre is aiming to achieve. 
 
-The Cloud Dial Predictive Dialing uses Machine Learning to continually review and make adjustments to the calls made and tunes the Dialler to meet your defined objective for Agent Wait Times and Call Drops due to No Agents available.
+**Target maximum calls drop (%)**
 
-We have developed three modes of Predictive Dialling, Generous, Moderate and Greedy.   These modes allow the Call Center administrator to set the "mood" of the machine learning system - a Greedy setting means that Cloud Dial will more aggressively attempt to tune the calls being made, whilst a Generous mode will allow more time to collect information on effective the dialler is performing.
+This value in % is the target maximum acceptable NoAgent %.
 
-We recommend greedy only where data quality is consistent (such as customer loyalty campaigns) and moderate to generous when data is unpredictable (such as debt collection).
+**Tuning Strategy** 
+
+**Generous**, **Moderate** and **Aggressive** tuning strategies determine how much change the Power Factor undergoes at each sampling period.   An aggressive strategy will make a large change order to achieve less than the maximum target wait times within the target call drop %, a moderate or generous tuning strategy will make smaller adjustments to the power factor.
+
+The Predictive dialler will continually adjust the Power Factor to meet keep within the call drop % whilst aiming to keep agent idle times within the maximum wait time in seconds.
+ 
+We recommend Aggressive tuning where call data quality is consistent (such as customer loyalty campaigns) and moderate or generous when call data quality is unpredictable (such as debt collection applications).   
+ 
+Where call data is unpredictable an aggressive strategy may over tune the power factor, it is recommended that the Cloud Dial Manager observe the operation of a running campaign to review the appropriate strategy to use.
+
+
+::: **TIP:**
+when a campaign is in predictive mode, the Cloud Dial administrator can override the current predictive value, this can be beneficial if the predictive algorithm is under or over performing or to move the Campaign towards an optimal busyness quickly.
+:::
+
 
 ### Configuration
 
@@ -217,7 +239,9 @@ Enter the following settings:
 * **Tuning Strategy:** This affects how Cloud Dial will adjust the Power Factor.  Choose from;
 
   * Generous
+
   * Moderate
+
   * Aggressive
 
 ### Enable on Campaign
