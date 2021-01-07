@@ -1,159 +1,180 @@
 ---
-title: Reports*
+title: Reporting & Dashboard
 date: 2020-03-16T10:31:44.610Z
 ---
-# Reports
+## Completed Campaigns
+
+On this screen, managers can see detailed information about completed campaigns.
+
+![](/images/clouddial_completed_campaigns.png)
+
+Use the search bar to search for and locate specific campaigns.
+
+The column headings provide detailed information about each campaign.
+
+* **Campaign Name:** The name of the Campaign provided upon creation.
+
+* **Contacts:** Total number of contacts uploaded as part of the campaign.
+
+* **Removed:** Total number of contacts filtered out by the Do Not Call Register.
+
+* **Not Attempted:** Total number of contacts that were not dialled.
+
+* **Contact Failed:** Total number of contacts that were dialled, but not connected.
+
+* **Contacted:** Total number of contacts that were successfully reached.
+
+* **Contact Success:** Total number of colls that were marked with a successful wrapup reason.
+
+* **Agents:** Total number of Agents that logged into the campaign.
+
+* **No Agents:** Total number of calls that ended with a 'No Agent Detected'. (lower your power factor if this is too high).
+
+* **Avg. Wait:** The average time (in seconds) Agents are waiting for a call after going into 'Ready' state.
+
+* **Avg. Call:** The average duration (in seconds) of each call.
+
+* **Avg. Wrap Up:** The average time (in seconds) an Agent is taking to wrapup each call. 
+
+* **Created On:** Shows the Date and Time the Campaign was created.
+
+* **By:** The Manager who created the Campaign.
+
+## Dialler History
+
+On this page, you can see the outcome for each call made by Cloud Dial.
+
+![](/images/clouddial_dialler_history.png)
+
+Use the search bar to search for and locate specific campaigns.
+
+The column headings provide detailed information about each campaign.
+
+* **Campaign:** The name of the Campaign provided when the Campaign was created.
+
+* **Contact:** The name of the contact.
+
+* **Phone:** The phone number of the contact.
+
+* **Agent:** The name of the Agent who spoke with the contact.
+
+* **Extension:** The extension number of the Agent who spoke with the contact.
+
+* **Result:** The result of the call. This can include such results as:
+
+  * **Connected:** A connected call.
+
+  * **Temporarily Unavailable:** Public telephone network returned a busy signal or temporary block.
+
+  * **Unspecified:** Public telephone network returned no data indicating why the call failed.
+
+* **Notes:** Further information about the 'result' of the call.
+
+* **Logged:** Date & Time the call was made.
+
+## Live Activity
+
+On this screen, a Manager can view Cloud Dials Live Activity.
+
+![](/images/clouddial_live_activity.png)
+
+## Reports
 
 The *Reports Page* contains a list of reports that allow greater insight into completed campaigns.
 
-## Agent Call Count Report
+From the 'Reports & Dashboard' menu on the left-hand side of the screen, select 'Reports'.
 
-**Description:**
+Here you can choose from a list of currently available reports. 
 
-This report shows the total amount of calls taken by each agent during the date range selected.
+* **Agent Detail Report:** Reports on the activity for a single agent 
+user across all Campaigns for a given date range. 
 
-**Usage:**
+* **Campaign Summary Report:** Summary of activity for a single Campaign across its entire lifetime.
 
-Choose from the following options:
+* **Contact Summary:** Summary of all contacts within a single campaign across its entire lifetime.
 
-* '**Start Date':** Beginning date range.
-* '**End Date':** End date range.
+* **Dial Results Report:** Dial history results for contact attempts 
+across all campaigns for a given date range.
 
-Click '**Download**' to download the PDF report.
+* **End of Day Report:** Summary of activity for a single day across all campaigns.
 
-The downloaded report contains a graph and a table showing the total amount of calls taken by each agent during the timeframe selected.
+* **Executive Summary Report:** Summary of activity across all campaigns for a given date range.
 
+* **Non Contacted Contacts Report:** List of contacts that were not able to be contacted for a given campaign.
 
+Fill in the relevent details, then click <img style="width: auto; height: 25px;" src="/images/clouddial_view_report_button.png"> 
 
-## Call Results
+The report will open in a new tab and can then be printed (or saved as a PDF), by clicking the <img style="width: auto; height: 25px;" src="/images/clouddial_print_button.png"> button in the top left-hand corner of the window.
 
-**Description:** 
+You can also download portions of the report by clicking on the <img style="width: auto; height: 25px;" src="/images/clouddial_download_button.png"> buttons located throughout each report. 
 
-This report shows the call results for all calls made during the date range selected.
+Where applicable, you will be able to download the data in the following formats:
 
-**Usage:**
+* JSON
 
-Choose from the following options:
+* XML
 
-* '**Ended Campaigns':** Either select '*All*' or a specific campaign.
-* '**Start Date':** Beginning date range.
-* '**End Date':** End date range.
+* CSV
 
-Click '**Download**' to download the PDF report.
+* TXT
 
-The downloaded report contains a graph similar to the below sample and a table containing the total count of each type.
+* SQL
 
-<img style="width: 1000px; height: auto;" src="/images/clouddial_callresults.png">
+* MX-Excel
 
+* PDF
 
-## Campaign Report
+## Call Results & Definitions
 
-**Description:** 
 
-This report lists each campaign created during the date range selected.
+<style type="text/css">
+	table.tableizer-table {
+		font-size: 12px;
+		border: 1px solid #CCC; 
+		font-family: Arial, Helvetica, sans-serif;
+	} 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.tableizer-table th {
+		background-color: #104E8B; 
+		color: #FFF;
+		font-weight: bold;
+	}
+</style>
+<table class="tableizer-table">
+<thead><tr class="tableizer-firstrow"><th>Result</th><th>Result Notes</th><th>Definition</th><th>Log Type</th><th>Log Type Cont.</th></tr></thead><tbody>
+ <tr><td>AMD</td><td>&nbsp;</td><td>Answering Machine Detection</td><td>Call Connected*</td><td>Call Failed*</td></tr>
+ <tr><td>Busy</td><td>Busy</td><td>Busy signal was detected on the dialled number</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Connected</td><td>&nbsp;</td><td>Call connected</td><td>Call Connected</td><td>&nbsp;</td></tr>
+ <tr><td>Disconnected</td><td>Disconnected (404)</td><td>Disconnected</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Disconnected</td><td>Disconnected (487)</td><td>Disconnected or inbound call restrictions</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>No Agent</td><td>&nbsp;</td><td>No available call centre agent was available to take connected call</td><td>Call Connected</td><td>&nbsp;</td></tr>
+ <tr><td>No Agent Message Left</td><td>&nbsp;</td><td>No available call centre agent was available to take connected call and message was played to remove party</td><td>Call Connected</td><td>&nbsp;</td></tr>
+ <tr><td>No Answer</td><td>Timeout waiting for remote party</td><td>Call timeout value was reached before remote party answered</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Permanent Failure</td><td>Destination Out Of Order</td><td>Remote party is currently not accepting calls</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Permanent Failure</td><td>Incompatible Destination</td><td>Remote network is out of order</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Permanent Failure</td><td>Invalid Number Format</td><td>Telephone number format is not valid</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Permanent Failure</td><td>Network Out Of Order</td><td>Remote network is out of order</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Permanent Failure</td><td>Unallocated Number</td><td>Disconnected or inbound call restrictions</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Rejected</td><td>Call Rejected (603)</td><td>Call was rejected by the remote party or remote destination is temporarily out of order</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Remote Party Hang Up</td><td>&nbsp;</td><td>Remote party hung up the call</td><td>Call Connected</td><td>&nbsp;</td></tr>
+ <tr><td>Restricted</td><td>Disconnected, Restricted or Rejected (487)</td><td>Disconnected or inbound call restrictions</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Temporarily Unavailable</td><td>Party currently unavailable. (480)</td><td>Remote party is currently not accepting calls</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Temporarily Unavailable</td><td>Rejected or Forbidden (403)</td><td>Remote party rejected the call or remote destination is temporarily out of order</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Temporarily Unavailable</td><td>Restricted or Rejected (408)</td><td>Inbound call restrictions or remote party rejected call</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Temporary Failure</td><td>Normal Temporary Failure</td><td>Remote party was not available at time of call and no additional information was provided by the remote network</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Unspecified</td><td>Other Failure - Unspecified</td><td>Unspecified error, no additional information was provided by the remote network</td><td>&nbsp;</td><td>Call Failed</td></tr>
+ <tr><td>Not Confirmed</td><td>Call Confirmation Not Received</td><td>Call connected however confirmation was provided by the remote party</td><td>Call Connected</td><td></td></tr>
+</tbody></table>
 
-**Usage:**
+* \* Global Configuration Option
 
-Choose from the following options:
+::: tip 
 
-* '**Created By':** Either select '*All*' or a specific manager.
-* '**Start Date':** Beginning date range.
-* '**End Date':** End date range.
+**NOTE:** Any other cause not considered will be set by default as "Call Connected".
 
-Click '**Download**' to download the PDF report.
+:::
 
-**Columns:**
-
-* '**Name':** The name of the campaign.
-* '**CLI':** This is the caller ID that was used for the outbound calls.
-* '**AMD**': Shows if *Answering Machine Detection* was enabled for the campaign or not.
-* '**Contacts':** The number of contacts that were uploaded during as part of the campaign.
-* '**Created':** Date the campaign was created.
-* '**Created By':** The manager that created the campaign.
-
-
-## Campaign Summary
-
-**Description:**
-
-Detailed campaign summary for one or more campaigns.
-
-**Usage:**
-
-Select the campaign you wish to report on and click '**Download**'
-
-This report contains information such as:
-
-* Average Call Time
-
-* Average Call Duration
-
-* Total Call Time (over the duration of the entire campaign)
-
-* Total Calls (made over the duration of the campaign)
-
-* Wrapup Metrics used by agents at the end of each call.
-
-
-
-
-
-## Dial Results Export
-
-**Description:** 
-
-Comprehensive export showing all calls made and the result of each call.
-
-The report will show each of the columns uploaded as part of the campaign creation process first, followed by each of the Cloud Dial system report columns as well.
-
-**Columns:**
-
-* '**SystemContactId**': This is Cloud Dials unique reference for the customer/contact. **Note** that each contact can have multiple numbers, however it will only ever have a single '*SystemContactId*'.
-* '**LogDate**': This is the date of the call.
-* '**LogTime**': This is the time of the call.
-* '**LogType**': This will be either **completed** or **failed** and is based on the wrapup reason selected by the agent on the call.
-* '**AgentName**': This field will show the name of the Agent who spoke on the call.
-* '**DialledFromNumber**': This is the caller ID that was used to make the outbound call.
-* '**DialledToNumber**': This is the number that was dialled.
-* '**Result**': The '*Result*' column shows the result of each attempted call.
-* '**ResultNotes**': The '*ResultNotes*' contains more information about any failed call.
-* '**WrapUpReasonName**': For each successful call, the '*WrapUpReasonName*' column will show the wrapup reason that was selected by the agent.
-* '**WrapUpDateTime**': This shows the date and time that the agent completed the call.
-* '**SystemNotes**': This column will contain any notes that were entered by the agent on the '*EditNotes*' tab while on the call.
-
-## End of Day Report
-
-**Description:**
-
-An end of day report containing graphs showing the results of each call as well as the wrapup metric chosen by each agent.
-
-**Usage:**
-
-Choose from the following options:
-
-* '**Campaign':** Either select '*All*' or a specific campaign.
-* '**Start Date':** Beginning date range.
-* '**End Date':** End date range.
-
-Click '**Download**'.
-
-The downloaded report contains graphed results of each call and wrapup metrics chosen by each agent.
-
-## Not Connected Contacts
-
-**Description:** 
-
-Report listing all contacts that were not contactable as part of a campaign.
-
-**Usage:**
-
-Click the '**Download**' button to download the report, or the '**Email Me**' button to have the report emailed to your inbox directly.
-
-**Columns:**
-
-* The first column shows the name of the campaign.
-* The second column shows the '*Name*' of the contact.
-* The third column shows the phone number that was dialled in the attempt.
-* The fourth column shows the outcome of the attempted call.
-* The fifth column shows the date / time of the attempted call.
-* The final column shows the reference number of the contact.
