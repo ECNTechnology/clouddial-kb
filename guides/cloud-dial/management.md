@@ -220,6 +220,24 @@ This campaign will make outbound calls and play an automated message.
 
 **5.** Once the message has been played to completion, Cloud Dial will hangup.
 
+#### Template
+
+::: tip 
+You MUST have the following column headings in your Contact File. If you do not require the additional phone numbers, leave the column blank.
+:::
+
+* Name
+
+* Reference
+* Phone1
+* Phone2
+* Phone3
+* Phone4
+* Email
+* State
+
+
+
 #### Creating a Virtual Agent Campaign
 
 ![](/images/clouddial_management_screen.png)
