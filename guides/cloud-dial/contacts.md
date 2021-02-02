@@ -34,5 +34,6 @@ From the '**Contacts**' menu on the left-hand side of the screen, select '**Mana
 
 Use the drop down menu to select a campaign, then use the search function to locate a contact.
 
+status 
 
 
