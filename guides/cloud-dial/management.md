@@ -198,7 +198,7 @@ Use the drop-down box to either select from a user-defined default list of WrapU
 
 Click **Finish** when you are ready to complete the setup for the Campaign.
 
-# Virtual Agent Campaigns
+### Virtual Agent Campaigns
 
 A '**Virtual Agent Campaign**' is a fully automated outbound campaign with no user agents involved. 
 
@@ -219,6 +219,24 @@ This campaign will make outbound calls and play an automated message.
 **4.** If at any time a beep is detected, Cloud Dial will begin to play the automated message from the start.
 
 **5.** Once the message has been played to completion, Cloud Dial will hangup.
+
+#### Template
+
+::: tip 
+You MUST have the following column headings in your Contact File. If you do not require the additional phone numbers, leave the column blank.
+:::
+
+* Name
+
+* Reference
+* Phone1
+* Phone2
+* Phone3
+* Phone4
+* Email
+* State
+
+
 
 #### Creating a Virtual Agent Campaign
 
