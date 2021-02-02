@@ -198,7 +198,7 @@ Use the drop-down box to either select from a user-defined default list of WrapU
 
 Click **Finish** when you are ready to complete the setup for the Campaign.
 
-# Virtual Agent Campaigns
+### Virtual Agent Campaigns
 
 A '**Virtual Agent Campaign**' is a fully automated outbound campaign with no user agents involved. 
 
