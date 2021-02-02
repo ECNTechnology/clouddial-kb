@@ -32,8 +32,23 @@ From the '**Contacts**' menu on the left-hand side of the screen, select '**Mana
 
 ![](/images/clouddial_manage_contacts_1.png)
 
-Use the drop down menu to select a campaign, then use the search function to locate a contact.
+Use the drop-down menu to select a campaign, then use the search function to locate a contact.
 
-status 
+Here you can see the following information:
 
+* **Name:** The contact name.
 
+* **Reference:** This is your reference number assigned to the contact.
+
+* **Phone:** These are the assigned phone numbers for this contact. 
+
+* **Status:** Contact Status.
+
+* **Actions:**
+  * Click the <img style="width: auto; height: 25px;" src="/images/clouddial_edit_button.png"> button to edit a Contact.
+
+  * Click '_Delete_' to remove a Contact.
+
+### Editing a Contact
+
+![](/images/clouddial_manage_contacts_2.png)
