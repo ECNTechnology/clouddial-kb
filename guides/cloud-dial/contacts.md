@@ -52,3 +52,4 @@ Here you can see the following information:
 ### Editing a Contact
 
 ![](/images/clouddial_manage_contacts_2.png)
+
