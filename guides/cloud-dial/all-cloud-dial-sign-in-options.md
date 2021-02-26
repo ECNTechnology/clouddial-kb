@@ -24,6 +24,9 @@ Click '**Sign In**'.
 
 ::: tip
 **Note:** In the event the 'Agent Name' chosen is not unique, you will be prompted for more information. This is to ensure accurate reporting.
+
+**Note:** Only one registration can be present while signing into Cloud Dial as an Agent.
+
 :::
 
 ![](/images/clouddial_agentcreate.png)
