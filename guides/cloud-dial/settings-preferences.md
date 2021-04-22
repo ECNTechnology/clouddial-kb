@@ -286,16 +286,16 @@ You will need to enter a '**Name**' and a '**Description**' for the recording. T
 From the drop down box, select '**Upload my audio file**'.
 
 Click the '**Upload File**' button and locate the .wav formatted file on your computer.
-
+::: tip
+**NOTE**: Supported file types are .wav only.
+:::
 When finished, click the <img style="width: auto; height: 25px;" src="/images/clouddial_save.png"> button to save the recording.
 
 You can now use this in a new campaign.
 
-::: tip
-**NOTE**: Supported file types are .wav only.
-:::
 
-### Generate a Text-To-Speach (TTS) Recording
+
+### Generate a One-off Text-To-Speach (TTS) Recording
 
 From the '**Recorded Sounds & TTS**' page, click the <img style="width: auto; height: 25px;" src="/images/clouddial_new.png"> button to create a new recording.
 
@@ -325,6 +325,45 @@ When finished, click the <img style="width: auto; height: 25px;" src="/images/cl
 
 You can now use this in a new campaign.
 
+### Generate a Dynamic Text-To-Speach (TTS) Recording
+
+From the '**Recorded Sounds & TTS**' page, click the <img style="width: auto; height: 25px;" src="/images/clouddial_new.png"> button to create a new recording
+
+![](/images/clouddial_recording_ttscustom.png)
+
+You will need to enter a '**Name**' and a '**Description**' for the recording. This is for your reference and it is recommended to be descriptive as this will help the campaign managers work out which file to use when creating campaigns.
+
+From the drop down box, select '**Use Dynamic Text To Speech with custom variables**'.
+
+::: tip
+**Note:** This option will dynamically generate the recording every time it is used. Substituting the variables selected.
+:::
+
+In the '**TTS Text**' box, enter the text you want to use. Substitute the following variables as required.
+
+* **Customer Name:** This will substitute the 'name' of the contact.
+
+* **Customer Reference:** This will substitute the reference number of the contact.
+
+* **Dialling Prefix:** This will subsitute the outbound caller ID used for the campaign.
+
+* **Short Pause:** This will add a short pause to the recording at this location.
+
+* **Long Pause:** This will add a slightly longer pause to the recording at this location.
+
+From the '**Voice Option**' select your preferred voice.
+
+Use the <img style="width: auto; height: 25px;" src="/images/clouddial_preview.png"> button to listen to the recording.
+
+::: tip
+**Pro Tip:** Your phone number can sound more natural using a combination of text and commas.
+
+Eg: For the 1800-111-234 number you can write "1, 8 hundred, triple 1, 2, 3, 4."
+:::
+
+When finished, click the <img style="width: auto; height: 25px;" src="/images/clouddial_save.png"> button to save the recording.
+
+You can now use this in a new campaign.
 
 ## Wrap Up Reasons
 
