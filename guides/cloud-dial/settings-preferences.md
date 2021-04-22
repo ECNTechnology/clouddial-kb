@@ -252,39 +252,58 @@ When you create a campaign as per normal, instead of setting a specific Power Fa
 
 Start the campaign as per normal.
 
-## Recorded Sounds
+## Recorded Sounds & TTS
 
 A recorded sound can be used in many scenarios with your campaigns, once they have been uploaded.
 
-The process to add / edit recordings is outlined below.
+There are two main options when adding a new recording.
+
+* Upload a file from your computer.
+
+* Use Text-To-Speach (TTS) to dynamically generate a oneoff message.
+
+* Use Text-To-Speach (TTS) to dynamically generate a custom message for each call. This can include specific reference numbers, contact information, etc, and provides a more personalised experience for the callee.
+
+The process to add, edit, and preview recordings is outlined below.
 
 ![](/images/clouddial_settings_menu.png)
 
 From the '**Settings**' menu, select '**Preferences**'.
 
-Select the '**Recorded Sounds**' tab from along the top of the screen.
+Select the '**Recorded Sounds & TTS**' tab from along the top of the screen.
 
-![](/images/clouddial_recordedsounds.png)
+![](/images/clouddial_recorded_sounds_1.png)
 
-* Use the search function to filter for specific sound files.
-* Click the '**Play**' button to listen to the sound file.
-* Click the '**Delete**' button to delete the file. (This is not reversable).
+Here you can see all of your current recordings.
 
-::: tip
-Note: If you have uploaded a lot of files, you may need to use the '**Next**' button, or the search function to locate the correct file.
-:::
+* Click the <img style="width: auto; height: 25px;" src="/images/clouddial_cog.png"> button to modify an existing recording.
 
-To add a new sound file, click the '**NEW**' button.
+* Click the <img style="width: auto; height: 25px;" src="/images/clouddial_play.png"> button to preview an existing recording.
 
-![](/images/clouddial_recordedsoundupload.png)
+* Click the <img style="width: auto; height: 25px;" src="/images/clouddial_delete.png"> button to delete a recording.
 
-Enter in a **'Name'** and '**Description'** so that you remember what the sound file is to be used for.
+* Click the <img style="width: auto; height: 25px;" src="/images/clouddial_new.png"> button to create a new recording.
 
-Click '**Select**' to open a file browser on your PC and select the file you would like to upload.
+### Uploading a recording
+
+From the '**Recorded Sounds & TTS**' page, click the <img style="width: auto; height: 25px;" src="/images/clouddial_new.png"> button to create a new recording.
+
+![](/images/clouddial_recording_upload.png)
+
+You will need to enter a '**Name**' and a '**Description**' for the recording. This is for your reference and it is recommended to be descriptive as this will help the campaign managers work out which file to use when creating campaigns.
+
+From the drop down box, select '**Upload my audio file**'.
+
+Click the '**Upload File**' button and locate the .wav formatted file on your computer.
+
+When finished, click the <img style="width: auto; height: 25px;" src="/images/clouddial_save.png"> button to save the recording.
+
+You can now use this in a new campaign.
 
 ::: tip
 **NOTE**: Supported file types are .wav only.
 :::
+
 
 Finally, click **'Save'**
 
