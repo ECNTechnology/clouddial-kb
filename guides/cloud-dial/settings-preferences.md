@@ -284,6 +284,22 @@ Here you can see all of your current recordings.
 
 * Click the <img style="width: auto; height: 25px;" src="/images/clouddial_new.png"> button to create a new recording.
 
+### Uploading a recording
+
+From the '**Recorded Sounds & TTS**' page, click the <img style="width: auto; height: 25px;" src="/images/clouddial_new.png"> button to create a new recording.
+
+![](/images/clouddial_recording_upload.png)
+
+You will need to enter a '**Name**' and a '**Description**' for the recording. This is for your reference and it is recommended to be descriptive as this will help the campaign managers work out which file to use when creating campaigns.
+
+From the drop down box, select '**Upload my audio file**'.
+
+Click the '**Upload File**' button and locate the .wav formatted file on your computer.
+
+When finished, click the <img style="width: auto; height: 25px;" src="/images/clouddial_save.png"> button to save the recording.
+
+You can now use this in a new campaign.
+
 ::: tip
 **NOTE**: Supported file types are .wav only.
 :::
