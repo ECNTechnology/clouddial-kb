@@ -189,13 +189,13 @@ The Power Factor is an important setting that controls how many calls Cloud Dial
 ::: tip
 **Example:** A Power Factor of 2.0x means that if there were 10 idle agents, Cloud Dial would attempt to dial 20 calls.
 :::
- 
+
 The challenge for Call Center administrators has always been determining the correct power factor for each campaign. 
- 
+
 A campaign with significant poor quality phone number data may mean a high power factor is required to keep Agents busy on calls, however, a campaign operating with high-quality call data would likely mean the opposite, a low Power Factor closer to 1:1 (calls to agents) would be advantageous.
 
 Predictive Dialing automates the setting of a Power Factor replacing the need to set a specific value on each campaign.  By enabling Predictive Dialing, Cloud Dial will automatically determine and adjust the required number of calls made to meet the needs of the call center.
- 
+
 To enable Predictive Dialling, configure the following parameters in **Dialler Settings** under **Preferences**.
 
 **Target maximum wait time (sec)**
@@ -211,16 +211,14 @@ This value in % is the target maximum acceptable NoAgent %.
 **Generous**, **Moderate** and **Aggressive** tuning strategies determine how much change the Power Factor undergoes at each sampling period.   An aggressive strategy will make a large change order to achieve less than the maximum target wait times within the target call drop %, a moderate or generous tuning strategy will make smaller adjustments to the power factor.
 
 The Predictive dialler will continually adjust the Power Factor to keep within the call drop % whilst aiming to keep agent idle times within the maximum wait time in seconds.
- 
-We recommend Aggressive tuning where call data quality is consistent (such as customer loyalty campaigns) and moderate or generous when call data quality is unpredictable (such as debt collection applications).   
- 
-Where call data is unpredictable an aggressive strategy may over tune the power factor, it is recommended that the Cloud Dial Manager observe the operation of a running campaign to review the appropriate strategy to use.
 
+We recommend Aggressive tuning where call data quality is consistent (such as customer loyalty campaigns) and moderate or generous when call data quality is unpredictable (such as debt collection applications).   
+
+Where call data is unpredictable an aggressive strategy may over tune the power factor, it is recommended that the Cloud Dial Manager observe the operation of a running campaign to review the appropriate strategy to use.
 
 ::: tip
 **TIP:** When a campaign is in predictive mode, the Cloud Dial administrator can override the current predictive value, this can be beneficial if the predictive algorithm is under or over performing or to move the Campaign towards an optimal busyness quickly.
 :::
-
 
 ### Configuration
 
@@ -239,9 +237,7 @@ Enter the following settings:
 * **Tuning Strategy:** This affects how Cloud Dial will adjust the Power Factor.  Choose from;
 
   * Generous
-
   * Moderate
-
   * Aggressive
 
 ### Enable on Campaign
@@ -259,9 +255,7 @@ A recorded sound can be used in many scenarios with your campaigns, once they ha
 There are two main options when adding a new recording.
 
 * Upload a file from your computer.
-
 * Use Text-To-Speach (TTS) to dynamically generate a oneoff message.
-
 * Use Text-To-Speach (TTS) to dynamically generate a custom message for each call. This can include specific reference numbers, contact information, etc, and provides a more personalised experience for the callee.
 
 The process to add, edit, and preview recordings is outlined below.
@@ -277,11 +271,8 @@ Select the '**Recorded Sounds & TTS**' tab from along the top of the screen.
 Here you can see all of your current recordings.
 
 * Click the <img style="width: auto; height: 25px;" src="/images/clouddial_cog.png"> button to modify an existing recording.
-
 * Click the <img style="width: auto; height: 25px;" src="/images/clouddial_play.png"> button to preview an existing recording.
-
 * Click the <img style="width: auto; height: 25px;" src="/images/clouddial_delete.png"> button to delete a recording.
-
 * Click the <img style="width: auto; height: 25px;" src="/images/clouddial_new.png"> button to create a new recording.
 
 ### Uploading a recording
@@ -308,11 +299,28 @@ You can now use this in a new campaign.
 
 From the '**Recorded Sounds & TTS**' page, click the <img style="width: auto; height: 25px;" src="/images/clouddial_new.png"> button to create a new recording.
 
-![](/images/clouddial_recording_uploadTTS.png)
+![](/images/clouddial_recordings_uploadtts.png)
 
 You will need to enter a '**Name**' and a '**Description**' for the recording. This is for your reference and it is recommended to be descriptive as this will help the campaign managers work out which file to use when creating campaigns.
 
-From the drop down box, select '**Upload my audio file**'.
+From the drop down box, select '**Use Text To Speach to pre-generate my audio file**'
+
+In the '**TTS Text**' box, enter in the text you want to use.
+
+From the '**Voice Option**' select your preferred voice.
+
+Use the <img style="width: auto; height: 25px;" src="/images/clouddial_preview.png"> button to listen to the recording.
+
+::: tip
+**Pro Tip:** Your phone number can sound more natural using a combination of text and commas.
+
+Eg: For the 1800-111-234 number you can write "1, 8 hundred, triple 1, 2, 3, 4."
+:::
+
+When finished, click the <img style="width: auto; height: 25px;" src="/images/clouddial_save.png"> button to save the recording.
+
+You can now use this in a new campaign.
+
 
 ## Wrap Up Reasons
 
