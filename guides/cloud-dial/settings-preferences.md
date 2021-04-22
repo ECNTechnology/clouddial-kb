@@ -305,6 +305,10 @@ You will need to enter a '**Name**' and a '**Description**' for the recording. T
 
 From the drop down box, select '**Use Text To Speach to pre-generate my audio file**'
 
+::: tip
+**Note:** This option will generate the recording once, and the same file will be used for each call.
+:::
+
 In the '**TTS Text**' box, enter in the text you want to use.
 
 From the '**Voice Option**' select your preferred voice.
