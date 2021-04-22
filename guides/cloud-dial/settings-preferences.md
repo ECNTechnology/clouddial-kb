@@ -272,9 +272,17 @@ From the '**Settings**' menu, select '**Preferences**'.
 
 Select the '**Recorded Sounds & TTS**' tab from along the top of the screen.
 
-<img style="width: auto; height: auto;" src="/images/clouddial_recorded_sounds_1.png">
+![](/images/clouddial_recorded_sounds_1.png)
 
+Here you can see all of your current recordings.
 
+* Click the <img style="width: auto; height: 25px;" src="/images/clouddial_cog.png"> button to modify an existing recording.
+
+* Click the <img style="width: auto; height: 25px;" src="/images/clouddial_play.png"> button to preview an existing recording.
+
+* Click the <img style="width: auto; height: 25px;" src="/images/clouddial_delete.png"> button to delete a recording.
+
+* Click the <img style="width: auto; height: 25px;" src="/images/clouddial_new.png"> button to create a new recording.
 
 ::: tip
 **NOTE**: Supported file types are .wav only.
