@@ -288,6 +288,7 @@ Here you can see all of your current recordings.
 **NOTE**: Supported file types are .wav only.
 :::
 
+
 Finally, click **'Save'**
 
 ## Wrap Up Reasons
