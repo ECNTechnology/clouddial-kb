@@ -304,8 +304,15 @@ You can now use this in a new campaign.
 **NOTE**: Supported file types are .wav only.
 :::
 
+### Generate a Text-To-Speach (TTS) Recording
 
-Finally, click **'Save'**
+From the '**Recorded Sounds & TTS**' page, click the <img style="width: auto; height: 25px;" src="/images/clouddial_new.png"> button to create a new recording.
+
+![](/images/clouddial_recording_uploadTTS.png)
+
+You will need to enter a '**Name**' and a '**Description**' for the recording. This is for your reference and it is recommended to be descriptive as this will help the campaign managers work out which file to use when creating campaigns.
+
+From the drop down box, select '**Upload my audio file**'.
 
 ## Wrap Up Reasons
 
