@@ -296,9 +296,9 @@ To stop a Campaign, click the <img style="width: auto; height: 25px;" src="/imag
 
 ![](/images/clouddial_endcampaign.png)
 
-Here you can see the following inforamtion:
+Here you can see the following information:
 
-* **Campaign name:** The designated name for the campaign. Double check this is correct before proceeding
+* **Campaign name:** The designated name for the campaign. Confirm this is correct before proceeding
 * **Created on:** This is the date the campaign was created.
 * **Created by:** The manager who created the campaign.
 * **Current progress:** The current progress of the campaign.
