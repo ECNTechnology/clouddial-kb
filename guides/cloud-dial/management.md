@@ -290,7 +290,7 @@ The column headings provide valuable information to the Campaign Manager.
 
 ### Ending a Campaign
 
-From the Management menu on the left hand side of the screen, select 'Campaigns'.
+From the Management menu on the left hand side of the screen, select '**Campaigns**'.
 
 To stop a Campaign, click the <img style="width: auto; height: 25px;" src="/images/clouddial_campaign_stop_button.png"> button.
 
@@ -299,28 +299,22 @@ To stop a Campaign, click the <img style="width: auto; height: 25px;" src="/imag
 Here you can see the following inforamtion:
 
 * **Campaign name:** The designated name for the campaign. Double check this is correct before proceeding
-
 * **Created on:** This is the date the campaign was created.
-
-* ** Created by:** The manager who created the campaign.
-
+* **Created by:** The manager who created the campaign.
 * **Current progress:** The current progress of the campaign.
-
-* ** Active callbacks:** Total number of callbacks that have yet to be actioned for the campaign.
-
+* **Active callbacks:** Total number of callbacks that have yet to be actioned for the campaign.
 * **Agents logged in:** Total number of agents currently logged into the campaign.
-
 * **Agents in call:** Total number of agents on active calls.
 
 ::: tip
-**Note:** The statistics shown on the page are current _as of when you load the page_. 
+**Note:** The statistics shown on the page are current *as of when you load the page*. 
 :::
 
-Clicking '_Pause Campaign_' will pause the campaign. Cloud Dial will stop initiating new calls allowing your agents to complete the work.
+Clicking '*Pause Campaign*' will pause the campaign. Cloud Dial will stop initiating new calls allowing your agents to complete the work.
 Once all work has been completed, and all calls have been wrapped up, click the '**End Campaign**' button.
 
 ::: warning 
-Clicking the '_End Campaign_' button is instant and can not be reversed.
+Clicking the '*End Campaign*' button is instant and can not be reversed.
 Once the campaign is ended, no further calls can be wrapped up.
 :::
 
