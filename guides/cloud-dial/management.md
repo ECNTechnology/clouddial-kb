@@ -189,7 +189,6 @@ Choose from:
 
 Click **Next** when ready to proceed.
 
-
 ![](/images/clouddial_campaign_wrapup.png)
 
 The final step to creating a Campaign, is the choose your WrapUp Reasons.
@@ -227,7 +226,6 @@ You MUST have the following column headings in your Contact File. If you do not 
 :::
 
 * Name
-
 * Reference
 * Phone1
 * Phone2
@@ -235,8 +233,6 @@ You MUST have the following column headings in your Contact File. If you do not 
 * Phone4
 * Email
 * State
-
-
 
 #### Creating a Virtual Agent Campaign
 
@@ -291,6 +287,35 @@ The column headings provide valuable information to the Campaign Manager.
 * **Progress:** Campaign progression as a percentage.
 * **Caller ID:** The outbound caller ID that will be presented for the Campaign.
 * **Created:** Shows the Date, Time, and the Manager who created the Campaign.
+
+### Ending a Campaign
+
+From the Management menu on the left hand side of the screen, select 'Campaigns'.
+
+To stop a Campaign, click the <img style="width: auto; height: 25px;" src="/images/clouddial_campaign_stop_button.png"> button.
+
+![](/images/clouddial_endcampaign.png)
+
+Here you can see the following inforamtion:
+
+* **Campaign name:** The designated name for the campaign. Double check this is correct before proceeding
+
+* **Created on:** This is the date the campaign was created.
+
+* ** Created by:** The manager who created the campaign.
+
+* **Current progress:** The current progress of the campaign.
+
+* ** Active callbacks:** Total number of callbacks that have yet to be actioned for the campaign.
+
+* **Agents logged in:** Total number of agents currently logged into the campaign.
+
+* **Agents in call:** Total number of agents on active calls.
+
+::: tip
+**Note:** The statistics shown on the page are current _as of when you load the page_. 
+:::
+
 
 ## Message Agents
 
