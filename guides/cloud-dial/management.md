@@ -316,6 +316,13 @@ Here you can see the following inforamtion:
 **Note:** The statistics shown on the page are current _as of when you load the page_. 
 :::
 
+Clicking '_Pause Campaign_' will pause the campaign. Cloud Dial will stop initiating new calls allowing your agents to complete the work.
+Once all work has been completed, and all calls have been wrapped up, click the '**End Campaign**' button.
+
+::: warning 
+Clicking the '_End Campaign_' button is instant and can not be reversed.
+Once the campaign is ended, no further calls can be wrapped up.
+:::
 
 ## Message Agents
 
