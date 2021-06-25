@@ -174,6 +174,10 @@ Tick the checkbox if you wish to make use of the 'Call Confirmation' feature.
 * **Call Confirmation Key:** This is the key that will need to be pressed to accept the call.
 * **Call Confirmation Message:** This is the message that will be played to the contact. This message should prompt them to press the 'Call Confirmation Key' to accept the call.
 
+::: tip 
+While you can use a TTS recording for the 'Call Confirmation Message', you can not use custom variables in that recording.
+:::
+
 Click **Next** when ready to proceed.
 
 ![](/images/clouddial_amd_settings.png)
