@@ -364,7 +364,7 @@ You will then see the. following column headings:
 * **Status:** The status for the number.
   * **Ready:** This indicates the number is waiting to be dialled.
 ::: tip
-If the retry attempts have been exceeded already, Cloud Dial will not attempt to dial the number.
+**Note:** If the retry attempts have been exceeded already, Cloud Dial will not attempt to dial the number.
 :::
   * **Failed:** This indicates the attempt failed outright and will not be retried.
 
