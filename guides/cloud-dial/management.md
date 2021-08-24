@@ -372,7 +372,7 @@ If the retry  attempts have been exceeded already, Cloud Dial will not attempt t
 
 * **Redial:** This column indicates the number of failed attempts to reach the number.
 ::: tip
-**Note:** If you have a campaign with 1 'redial attempt' configured, Cloud Diall will dial a maximum of 2 calls for each phone number assigned to the contact.
+**Note:** If you have a campaign with 1 'redial attempt' configured, Cloud Dial will dial a maximum of 2 calls for each phone number assigned to the contact.
 :::
 
 * **Agent:** If the call was connected, this will show the agent who spoke on the call.
