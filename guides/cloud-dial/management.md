@@ -346,12 +346,12 @@ When you are ready to send the message, click <img style="width: auto; height: 2
 
 The Cloud Dial 'Dial Queue' page is a useful tool to monitor the status of the numbers.
 
-
-![](/images/clouddial_dialqueue.png)
-
 Select a campaign from the drop-down list and press '**Refresh**'.
 
 You can also search for a specific name or phone number using the search button.
+
+![](/images/clouddial_dialqueue.png)
+
 
 You will then see the. following column headings:
 
