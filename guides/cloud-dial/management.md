@@ -364,11 +364,13 @@ You will then see the. following column headings:
 * **Status:** The status for the number.
   * **Ready:** This indicates the number is waiting to be. dialled again.
 ::: tip
-If the retry  attempts have been exceeded already, Cloud Dial will not attempt to dial the number.
+If the retry attempts have been exceeded already, Cloud Dial will not attempt to dial the number.
 :::
   * **Failed:** This indicates the attempt failed outright and will not be retried.
 
   * **Connected:** A connected call.
+
+  * **Dialling:** Cloud Dial is currently dialling the number. 
 
 * **Redial:** This column indicates the number of failed attempts to reach the number.
 ::: tip
