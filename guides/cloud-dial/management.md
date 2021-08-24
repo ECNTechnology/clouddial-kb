@@ -341,3 +341,40 @@ Enter the following:
 * **Select Agents:** Choose which Agents should receive the message.
 
 When you are ready to send the message, click <img style="width: auto; height: 25px;" src="/images/clouddial_send_button.png">
+
+## Dial Queue
+
+The Cloud Dial 'Dial Queue' page is a useful tool to monitor the status of the numbers.
+
+
+![](/images/clouddial_dialqueue.png)
+
+Select a campaign from the drop-down list and press '**Refresh**'.
+
+You can also search for a specific name or phone number using the search button.
+
+You will then see the. following column headings:
+
+* **Name:** The name allocated to the contact before the campaign was uploaded.
+
+* **Reference:** The reference allocated to the contact before the campaign was uploaded.
+
+* **Phone:** The phone number to dial for the contact. Note that if you have more than one number allocated to a contact, the contact will show multiple times in this list.
+
+* **Status:** The status for the number.
+  * **Ready:** This indicates the number is waiting to be. dialled again.
+::: tip
+If the retry  attempts have been exceeded already, Cloud Dial will not attempt to dial the number.
+:::
+  * **Failed:** This indicates the attempt failed outright and will not be retried.
+
+  * **Connected:** A connected call.
+
+* **Redial:** This column indicates the number of failed attempts to reach the number.
+::: tip
+**Note:** If you have a campaign with 1 'redial attempt' configured, Cloud Diall will dial a maximum of 2 calls for each phone number assigned to the contact.
+:::
+
+* **Agent:** If the call was connected, this will show the agent who spoke on the call.
+
+* **Ext:** If the call was connected, this will show the extension number of the agent who spoke on the call.
