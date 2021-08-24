@@ -362,9 +362,9 @@ You will then see the. following column headings:
 * **Phone:** The phone number to dial for the contact. Note that if you have more than one number allocated to a contact, the contact will show multiple times in this list.
 
 * **Status:** The status for the number.
-  * **Ready:** This indicates the number is waiting to be. dialled again.
+  * **Ready:** This indicates the number is waiting to be dialled.
 ::: tip
-If the retry attempts have been exceeded already, Cloud Dial will not attempt to dial the number.
+**Note:** If the retry attempts have been exceeded already, Cloud Dial will not attempt to dial the number.
 :::
   * **Failed:** This indicates the attempt failed outright and will not be retried.
 
