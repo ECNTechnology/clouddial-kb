@@ -363,9 +363,21 @@ You will then see the. following column headings:
     ::: tip
     **Note:** If the retry attempts have been exceeded already, Cloud Dial will not attempt to dial the number.
     :::
+
   * **Failed:** This indicates the attempt failed outright and will not be retried.
+
   * **Connected:** A connected call.
+
   * **Dialling:** Cloud Dial is currently dialling the number. 
+
+  * **HardFailure:** Public Telephone Network indicated that this number is out of service.
+
+  * **InCall:** This number is currently incall.
+
+  * **Paired:** This number is one of multiple numbers for a contact. One of the other numbers was successful, so there is no need to dial this number.
+
+  * **Removed:** This number was removed from the queue and will not be dialled.  
+
 * **Redial:** This column indicates the number of failed attempts to reach the number.
   ::: tip
   **Note:** If you have a campaign with 1 'redial attempt' configured, Cloud Dial will dial a maximum of 2 calls for each phone number assigned to the contact.
