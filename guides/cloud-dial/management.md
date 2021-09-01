@@ -357,7 +357,7 @@ You will then see the. following column headings:
 * **Name:** The name allocated to the contact before the campaign was uploaded.
 * **Reference:** The reference allocated to the contact before the campaign was uploaded.
 * **Phone:** The phone number to dial for the contact. Note that if you have more than one number allocated to a contact, the contact will show multiple times in this list.
-* **Status:** The status for the number.
+* **Status:** Possible status for the number include: 
 
   * **Ready:** This indicates the number is waiting to be dialled.
     ::: tip
