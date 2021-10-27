@@ -95,4 +95,4 @@ Use the search option to locate the contact you wish to link to, then click clic
 <img style="width: 750px; height: auto;" src="/images/clouddial_search_2.png">
 
 
-
+Once linked you can then update the contact and complete the call as per normal.
