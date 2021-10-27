@@ -76,7 +76,23 @@ In this table you can see the following information:
 
   * **OnBreak:** Typically used while having lunch, or for bathroom breaks.
   * **Ready:** While waiting for the next call, you are in 'Ready' status.
-  * **WrapUp:** 'WrapUp' status refers to the time between ending a call, and selecting 'Ready' to take the next call.
+  * **WrapUp:** 'WrapUp' status refers to the time bTo leave a pre-recorded message, click 
+etween ending a call, and selecting 'Ready' to take the next call.
 * **My Total Time:** This column displays the total time you have spent in each status.
 * **My Avg. Time:** This is the average time you have spent in each status.
 * **Campaign Avg. Time %:** This is the average time that all agents have spent in each status.
+
+## Inbound Calls Search Function
+
+In the event of an inbound call to a <a href="https://kb.clouddial.com.au/guides/cloud-dial/management.html#general-campaigns">Blended Campaign</a> there is a possibility of an inbound call from a 'non-recognised' number that is not associated with any contact on a campaign.
+
+In this instance Cloud Dial will offer the option to search and link the call to an existing contact.
+
+<img style="width: 500px; height: auto;" src="/images/clouddial_search_1.png">
+
+Use the search option to locate the contact you wish to link to, then click click <img style="width: auto; height: 25px;" src="/images/clouddial_search_link.png">
+
+<img style="width: 500px; height: auto;" src="/images/clouddial_search_2.png">
+
+
+
