@@ -88,11 +88,11 @@ In the event of an inbound call to a <a href="https://kb.clouddial.com.au/guides
 
 In this instance Cloud Dial will offer the option to search and link the call to an existing contact.
 
-<img style="width: 500px; height: auto;" src="/images/clouddial_search_1.png">
+<img style="width: 750px; height: auto;" src="/images/clouddial_search_1.png">
 
 Use the search option to locate the contact you wish to link to, then click click <img style="width: auto; height: 25px;" src="/images/clouddial_search_link.png">
 
-<img style="width: 500px; height: auto;" src="/images/clouddial_search_2.png">
+<img style="width: 750px; height: auto;" src="/images/clouddial_search_2.png">
 
 
 
