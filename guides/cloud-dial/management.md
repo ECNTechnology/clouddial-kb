@@ -201,6 +201,22 @@ Use the drop-down box to either select from a user-defined default list of WrapU
 
 Click **Finish** when you are ready to complete the setup for the Campaign.
 
+#### General Campaign Template Headings
+
+::: tip 
+You MUST have the following column data in your Contact File at minimum. You can add as many other column headings as you require.
+:::
+
+* Name
+* Reference
+* Phone1
+
+::: tip
+**Optional:** Use the 'LoadSeq' column heading to customise the dialing order for your Campaign.
+:::
+
+
+
 ### Virtual Agent Campaigns
 
 A '**Virtual Agent Campaign**' is a fully automated outbound campaign with no user agents involved. 
@@ -223,7 +239,7 @@ This campaign will make outbound calls and play an automated message.
 
 **5.** Once the message has been played to completion, Cloud Dial will hangup.
 
-#### Template
+#### Virtual Agent Template Headings
 
 ::: tip 
 You MUST have the following column headings in your Contact File. If you do not require the additional phone numbers, leave the column blank.
@@ -263,7 +279,7 @@ Enter the following information:
 
 Once you are happy with all settings for the campaign, click '**Finish**'.
 
-#### View running Virtual Agent Campaigns
+### View running Virtual Agent Campaigns
 
 From the Management menu on the left hand side of the screen, select '**Campaigns**'.
 
