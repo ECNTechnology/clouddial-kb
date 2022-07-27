@@ -21,3 +21,10 @@ You can review your number on **[https://www.reverseaustralia.com/](https://www.
 ::: tip
 If you find your number has been marked in such a fashion, it might be time to use a new outbound caller ID.
 :::
+
+## Why can I not see my numbers?
+
+Numbers need to be enabled for use in Cloud Dial. 
+
+See **[https://kb.clouddial.com.au/guides/cloud-dial/settings-preferences.html#phone-numbers](https://kb.clouddial.com.au/guides/cloud-dial/settings-preferences.html#phone-numbers)** to learn how.
+
