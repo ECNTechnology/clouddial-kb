@@ -30,7 +30,7 @@ See **[https://kb.clouddial.com.au/guides/cloud-dial/settings-preferences.html#p
 
 ## Why is Cloud Dial not making any calls?
 
-Cloud Dial has built in 'Dialling Hours' to protect you from accidentally making calls during undesireable hours.
+Cloud Dial has built in 'Dialling Hours' to protect you from accidentally making calls during undesirable hours.
 To learn more click **[here](https://kb.clouddial.com.au/guides/cloud-dial/settings-preferences.html#dialling-hours)**.
 
 ![](/images/clouddial_dialling_hours.png)
