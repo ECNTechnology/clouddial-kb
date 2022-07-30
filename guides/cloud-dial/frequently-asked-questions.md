@@ -28,3 +28,9 @@ Numbers need to be enabled for use in Cloud Dial.
 
 See **[https://kb.clouddial.com.au/guides/cloud-dial/settings-preferences.html#phone-numbers](https://kb.clouddial.com.au/guides/cloud-dial/settings-preferences.html#phone-numbers)** to learn how.
 
+## Why is Cloud Dial not making any calls?
+
+Cloud Dial has built in 'Dialling Hours' to protect you from accidentally making calls during undesireable hours.
+To learn more click **[here](https://kb.clouddial.com.au/guides/cloud-dial/settings-preferences.html#dialling-hours)**.
+
+![](/images/clouddial_dialling_hours.png)
